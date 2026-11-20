@@ -313,12 +313,12 @@
             Верните телу легкость, энергию и <span class="italic text-amberGold-dark font-medium">здоровый вес</span> без чувства вины и голодовок
           </h1>
 
-          <!-- Subtitle (Точное требование пользователя: индивидуальные физиологические и возрастные особенности) -->
+          <!-- Subtitle (индивидуальные физиологические и возрастные особенности) -->
           <p class="text-base sm:text-lg text-slateDark-muted leading-relaxed max-w-2xl">
             Персональный рацион на основе ваших индивидуальных физиологических и возрастных особенностей. Работаем с первопричиной симптомов, а не маскируем их: без жестких запретов, взвешивания листьев салата и 20 банок БАДов.
           </p>
 
-          <!-- 3 Pillars Checklist (Обновленные названия по ТЗ пользователя) -->
+          <!-- 3 Pillars Checklist -->
           <div class="grid grid-cols-1 sm:grid-cols-3 gap-3.5 pt-2">
             
             <!-- Pillar 1: Анализ вашего питания -->
@@ -368,7 +368,7 @@
             </a>
           </div>
 
-          <!-- Social Proof metrics (Точно по ТЗ: убраны фото людей, 100+ отзывов, 2 года практики) -->
+          <!-- Social Proof metrics -->
           <div class="pt-5 border-t border-cream-400 flex flex-wrap items-center gap-8 text-slateDark-muted text-xs">
             <div class="flex items-center gap-2">
               <div class="text-left">
@@ -388,7 +388,7 @@
 
         </div>
 
-        <!-- Right Column: Visual Portrait & Clean Integrated Stats (Ничего не закрывает лицо, без летающих плашек) -->
+        <!-- Right Column: Visual Portrait & Clean Integrated Stats -->
         <div class="lg:col-span-5">
           <div class="relative mx-auto max-w-md lg:max-w-none">
             
@@ -402,7 +402,7 @@
               />
               <div class="absolute inset-0 bg-gradient-to-t from-forest-deep/85 via-forest-deep/20 to-transparent"></div>
               
-              <!-- Bottom Bio Overlay (Аккуратная плашка внизу) -->
+              <!-- Bottom Bio Overlay -->
               <div class="absolute bottom-5 left-5 right-5 text-white">
                 <div class="inline-block px-2.5 py-1 rounded-lg bg-amberGold text-forest-deep text-[11px] font-bold uppercase tracking-wider mb-1.5">
                   Диплом биолога
@@ -412,7 +412,7 @@
               </div>
             </div>
 
-            <!-- Аккуратный блок ключевых преимуществ ПОД фото (вместо летающих плашек, перекрывавших изображение) -->
+            <!-- Стационарные карточки преимуществ ПОД фото -->
             <div class="mt-4 grid grid-cols-2 gap-3">
               <div class="p-3.5 rounded-2xl bg-white border border-cream-400 shadow-sm flex items-center gap-3">
                 <div class="w-9 h-9 rounded-xl bg-herb-100 flex items-center justify-center text-forest flex-shrink-0">
@@ -443,7 +443,7 @@
   </section>
 
   <!-- =========================================================================
-       4. INTERACTIVE QUIZ SECTION (Интерактивный квиз: по ТЗ заголовок, шаги, рацион на 3 дня)
+       4. INTERACTIVE QUIZ SECTION (Интерактивный квиз с мгновенным редиректом)
        ========================================================================= -->
   <section id="quiz" class="py-16 bg-cream-100 border-y border-cream-400 scroll-mt-20">
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -452,11 +452,9 @@
         <span class="inline-block text-xs font-bold uppercase tracking-widest text-amberGold-dark bg-amberGold-soft px-3 py-1 rounded-full mb-3">
           Экспресс-диагностика за 2 минуты
         </span>
-        <!-- Фото 5: точный заголовок -->
         <h2 class="font-serif text-3xl sm:text-4xl font-bold text-forest tracking-tight">
           Узнайте причину лишнего веса
         </h2>
-        <!-- Фото 9: рацион на 3 дня в подарок -->
         <p class="text-slateDark-muted text-sm sm:text-base mt-2">
           Ответьте на 3 вопроса о вашем самочувствии. В конце вы получите предварительный расчет персональной стратегии + рацион на 3 дня в подарок.
         </p>
@@ -479,7 +477,7 @@
         <!-- Quiz Forms / Steps -->
         <form id="quizForm" onsubmit="handleQuizSubmit(event)">
           
-          <!-- STEP 1: Main Goal (Фото 7: точные формулировки) -->
+          <!-- STEP 1: Main Goal -->
           <div id="quizStep1" class="quiz-step space-y-4">
             <h3 class="text-lg sm:text-xl font-bold text-forest">
               1. Какая цель сейчас для вас в главном приоритете?
@@ -497,7 +495,7 @@
                 </div>
               </label>
 
-              <!-- 2: Здоровье ЖКТ, плоский живот, чистая кожа и крепкий иммунитет -->
+              <!-- 2: Здоровье ЖКТ, плоский живот и крепкий иммунитет -->
               <label class="flex items-center gap-3 p-4 rounded-2xl border-2 border-cream-400 hover:border-forest/50 hover:bg-herb-50 cursor-pointer transition-all">
                 <input type="radio" name="goal" value="gut_health" class="w-4 h-4 text-forest focus:ring-forest" />
                 <div>
@@ -538,7 +536,7 @@
             </div>
           </div>
 
-          <!-- STEP 2: Symptoms (Фото 8: добавлен квадратик "бесконтрольное переедание вечером") -->
+          <!-- STEP 2: Symptoms -->
           <div id="quizStep2" class="quiz-step hidden space-y-4">
             <h3 class="text-lg sm:text-xl font-bold text-forest">
               2. Какие симптомы вы замечаете чаще всего за последний месяц?
@@ -547,7 +545,7 @@
             
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-3.5 pt-2">
               
-              <!-- Добавленный пункт по ТЗ -->
+              <!-- Добавленный пункт -->
               <label class="flex items-center gap-3 p-3.5 rounded-2xl border-2 border-amberGold-border bg-amberGold-soft/30 hover:bg-amberGold-soft/60 cursor-pointer transition-all">
                 <input type="checkbox" name="symptoms" value="evening_overeating" class="w-4 h-4 text-forest rounded focus:ring-forest" checked />
                 <span class="text-xs sm:text-sm font-bold text-forest">Бесконтрольное переедание вечером</span>
@@ -624,7 +622,7 @@
                     Куда Екатерина отправит ваш персональный расчет и рацион на 3 дня?
                   </p>
                   <p class="text-[11px] text-slateDark-muted">
-                    Екатерина лично свяжется с вами в удобном мессенджере (WhatsApp / Telegram / MAX).
+                    При отправке заявки сразу откроется чат с Екатериной в WhatsApp.
                   </p>
                 </div>
               </div>
@@ -671,7 +669,7 @@
                 </label>
               </div>
 
-              <!-- Submit Button (Disabled by default) -->
+              <!-- Submit Button -->
               <button 
                 type="submit" 
                 id="quizSubmitBtn" 
@@ -679,7 +677,7 @@
                 class="w-full py-4 px-6 rounded-xl bg-forest text-cream-100 font-bold text-sm sm:text-base transition-all duration-200 shadow-card disabled:opacity-40 disabled:cursor-not-allowed hover:bg-forest-light flex items-center justify-center gap-2"
               >
                 <i data-lucide="check-circle" class="w-5 h-5 text-amberGold"></i>
-                <span>Получить рацион на 3 дня и рекомендации</span>
+                <span id="quizSubmitBtnText">Получить рацион на 3 дня и открыть WhatsApp</span>
               </button>
             </div>
 
@@ -694,33 +692,30 @@
             </div>
           </div>
 
-          <!-- SUCCESS STATE (Фото 10: Удобная связка — клиент может сразу написать маме напрямую или дождаться ответа) -->
+          <!-- SUCCESS STATE (С мгновенным перенаправлением) -->
           <div id="quizSuccess" class="quiz-step hidden py-8 text-center space-y-4">
-            <div class="w-16 h-16 rounded-full bg-herb-100 text-forest mx-auto flex items-center justify-center">
+            <div class="w-16 h-16 rounded-full bg-herb-100 text-forest mx-auto flex items-center justify-center animate-pulse">
               <i data-lucide="check" class="w-8 h-8"></i>
             </div>
-            <h3 class="font-serif text-2xl sm:text-3xl font-bold text-forest">Спасибо! Ответы приняты</h3>
+            <h3 class="font-serif text-2xl sm:text-3xl font-bold text-forest">Перенаправляем в чат к Екатерине...</h3>
             <p class="text-sm text-slateDark-muted max-w-lg mx-auto">
-              Екатерина Рыбалкина уже получила вашу заявку. В течение 15 минут она свяжется с вами и пришлет ваш <strong>рацион на 3 дня</strong> и персональные рекомендации по питанию.
+              Диалог с Екатериной Рыбалкиной открывается прямо сейчас. Если приложение не открылось автоматически, нажмите кнопку ниже:
             </p>
             
-            <!-- Прямая кнопка для клиента написать маме сразу -->
             <div class="pt-3 flex flex-col sm:flex-row items-center justify-center gap-3 max-w-md mx-auto">
               <a 
                 id="directWhatsAppBtn"
-                href="https://wa.me/79064707617?text=Здравствуйте,%20Екатерина!%20Я%20прошел(ла)%20квиз%20на%20сайте.%20Отправьте%20мне,%20пожалуйста,%20рацион%20на%203%20дня" 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                class="w-full sm:w-auto px-5 py-3 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs flex items-center justify-center gap-2 shadow-sm transition-all"
+                href="https://wa.me/79064707617" 
+                class="w-full sm:w-auto px-6 py-3.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs flex items-center justify-center gap-2 shadow-lg transition-all"
               >
-                <i data-lucide="message-circle" class="w-4 h-4"></i>
-                <span>Получить в WhatsApp прямо сейчас</span>
+                <i data-lucide="message-circle" class="w-5 h-5"></i>
+                <span>Открыть чат в WhatsApp</span>
               </a>
               <a 
                 href="https://t.me/+79064707617" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                class="w-full sm:w-auto px-5 py-3 rounded-xl bg-forest hover:bg-forest-light text-white font-bold text-xs flex items-center justify-center gap-2 shadow-sm transition-all"
+                class="w-full sm:w-auto px-5 py-3.5 rounded-xl bg-forest hover:bg-forest-light text-white font-bold text-xs flex items-center justify-center gap-2 shadow-sm transition-all"
               >
                 <i data-lucide="send" class="w-4 h-4"></i>
                 <span>В Telegram</span>
@@ -1513,7 +1508,7 @@
   </section>
 
   <!-- =========================================================================
-       11. ОНЛАЙН-ФОРМАТ ПО ВСЕЙ РОССИИ (Вместо карты Москвы: удобный онлайн-прием)
+       11. ОНЛАЙН-ФОРМАТ ПО ВСЕЙ РОССИИ
        ========================================================================= -->
   <section id="online-format" class="py-16 sm:py-24 bg-cream-200 border-t border-cream-400 scroll-mt-20">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -1725,7 +1720,7 @@
               Сделайте первый шаг к телу, в котором легко жить
             </h2>
             <p class="text-cream-300/80 text-xs sm:text-sm leading-relaxed">
-              Запишитесь на первичный разбор или оставьте заявку на расчет рациона. Екатерина свяжется с вами в Telegram, WhatsApp или MAX и ответит на все вопросы.
+              Запишитесь на первичный разбор или оставьте заявку на расчет рациона. При отправке откроется прямой чат с Екатериной в WhatsApp.
             </p>
             
             <div class="pt-2 space-y-2 text-xs text-cream-200">
@@ -1800,7 +1795,7 @@
                 disabled 
                 class="w-full py-4 rounded-xl bg-forest hover:bg-forest-light text-white font-bold text-sm transition-all shadow-card disabled:opacity-40 disabled:cursor-not-allowed"
               >
-                Отправить заявку
+                Отправить заявку и перейти в WhatsApp
               </button>
             </form>
           </div>
@@ -1895,7 +1890,7 @@
   </aside>
 
   <!-- =========================================================================
-       16. BOOKING MODAL (Модальное окно онлайн-записи)
+       16. BOOKING MODAL (Модальное окно онлайн-записи с редиректом)
        ========================================================================= -->
   <div id="bookingModal" class="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm hidden items-center justify-center p-4">
     <div class="bg-white rounded-3xl max-w-lg w-full p-6 sm:p-8 shadow-2xl border border-cream-400 relative max-h-[90vh] overflow-y-auto">
@@ -1915,7 +1910,7 @@
         </span>
         <h3 class="font-serif text-2xl font-bold text-forest mt-2">Консультация нутрициолога</h3>
         <p class="text-xs text-slateDark-muted mt-1" id="modalServiceSubtitle">
-          Заполните форму, и Екатерина согласует с вами удобное время в WhatsApp, MAX или Telegram.
+          Заполните форму, и мы сразу откроем прямой чат с Екатериной для согласования времени.
         </p>
       </div>
 
@@ -1950,10 +1945,9 @@
             id="modalFormat" 
             class="w-full px-4 py-3 rounded-xl bg-cream-100 border border-cream-400 focus:outline-none focus:border-forest text-base sm:text-sm"
           >
-            <option value="whatsapp">WhatsApp (+7 906 470-76-17)</option>
+            <option value="whatsapp" selected>WhatsApp (+7 906 470-76-17)</option>
             <option value="telegram">Telegram</option>
             <option value="max">MAX</option>
-            <option value="call">Обычный телефонный звонок</option>
           </select>
         </div>
 
@@ -1978,7 +1972,7 @@
             />
             <span class="text-[11px] text-slateDark-muted leading-relaxed">
               Даю согласие на обработку персональных данных и принимаю условия 
-              <a href="#" onclick="openLegalModal('privacy'); return false;" class="text-forest font-semibold underline hover:text-black">Политики конфиденциальности</a> 
+              <a href="#" onclick="openLegalModal('privacy'); return false;" class="text-forest font-semibold underline hover:text-black">Полититики конфиденциальности</a> 
               в соответствии с 152-ФЗ РФ.
             </span>
           </label>
@@ -1988,9 +1982,9 @@
           type="submit" 
           id="modalSubmitBtn" 
           disabled 
-          class="w-full py-3.5 rounded-xl bg-forest hover:bg-forest-light text-white font-bold text-sm transition-all shadow-card disabled:opacity-40 disabled:cursor-not-allowed"
+          class="w-full py-3.5 rounded-xl bg-forest hover:bg-forest-light text-white font-bold text-sm transition-all shadow-card disabled:opacity-40 disabled:cursor-not-allowed flex items-center justify-center gap-2"
         >
-          Подтвердить запись
+          <span id="modalSubmitBtnText">Подтвердить запись и перейти в чат</span>
         </button>
       </form>
     </div>
@@ -2032,7 +2026,7 @@
   </div>
 
   <!-- =========================================================================
-       18. JAVASCRIPT LOGIC
+       18. JAVASCRIPT LOGIC (Мгновенное перенаправление в WhatsApp/мессенджер)
        ========================================================================= -->
   <script>
     // Lucide Icons initialization
@@ -2143,33 +2137,69 @@
       }
     }
 
+    // 1. QUIZ SUBMIT: МГНОВЕННЫЙ РЕДИРЕКТ В WHATSAPP
     function handleQuizSubmit(event) {
       event.preventDefault();
       const consent = document.getElementById('quizConsentCheckbox');
       if (!consent || !consent.checked) {
-        alert('Для получения рекомендаций необходимо подтвердить согласие на обработку данных (152-ФЗ).');
         return;
       }
       
-      const name = document.getElementById('quizName')?.value || '';
-      const phone = document.getElementById('quizPhone')?.value || '';
+      const name = document.getElementById('quizName')?.value.trim() || 'Клиент';
+      const phone = document.getElementById('quizPhone')?.value.trim() || '';
 
-      // Update direct WhatsApp link with user's name
-      const waBtn = document.getElementById('directWhatsAppBtn');
-      if (waBtn) {
-        const msg = encodeURIComponent(`Здравствуйте, Екатерина! Меня зовут ${name} (${phone}). Я прошел(ла) квиз на сайте. Отправьте мне, пожалуйста, рацион на 3 дня и рекомендации.`);
-        waBtn.href = `https://wa.me/79064707617?text=${msg}`;
+      // Получаем выбранную цель
+      const selectedGoal = document.querySelector('input[name="goal"]:checked');
+      let goalText = 'Снижение веса и удержание результата';
+      if (selectedGoal) {
+        const parent = selectedGoal.closest('label');
+        if (parent) {
+          const t = parent.querySelector('span.block.text-sm');
+          if (t) goalText = t.innerText.trim();
+        }
       }
 
+      // Получаем выбранные симптомы
+      const checkedSymptoms = document.querySelectorAll('input[name="symptoms"]:checked');
+      let symptomsList = [];
+      checkedSymptoms.forEach(cb => {
+        const p = cb.closest('label');
+        if (p) {
+          const s = p.querySelector('span')?.innerText.trim();
+          if (s) symptomsList.push(s);
+        }
+      });
+      const symptomsText = symptomsList.length > 0 ? symptomsList.join(', ') : 'Не указаны';
+
+      const btn = document.getElementById('quizSubmitBtn');
+      const btnText = document.getElementById('quizSubmitBtnText');
+      if (btn) btn.disabled = true;
+      if (btnText) btnText.innerText = 'Перенаправляем в WhatsApp к Екатерине...';
+
+      // Сообщение для мамы
+      const msg = `Здравствуйте, Екатерина! Меня зовут ${name} (${phone}).\nЯ прошел(ла) квиз на сайте.\nМоя цель: ${goalText}.\nСимптомы: ${symptomsText}.\nОтправьте мне, пожалуйста, рацион на 3 дня и рекомендации!`;
+      const redirectUrl = `https://wa.me/79064707617?text=${encodeURIComponent(msg)}`;
+
+      // Показываем экран ожидания / успеха
       document.querySelectorAll('.quiz-step').forEach(el => el.classList.add('hidden'));
       const success = document.getElementById('quizSuccess');
       if (success) success.classList.remove('hidden');
+
+      const waBtn = document.getElementById('directWhatsAppBtn');
+      if (waBtn) waBtn.href = redirectUrl;
+
+      // Мгновенный переход
+      setTimeout(() => {
+        window.location.href = redirectUrl;
+      }, 400);
     }
 
     function resetQuiz() {
       document.getElementById('quizForm').reset();
       const submitBtn = document.getElementById('quizSubmitBtn');
       if (submitBtn) submitBtn.disabled = true;
+      const btnText = document.getElementById('quizSubmitBtnText');
+      if (btnText) btnText.innerText = 'Получить рацион на 3 дня и открыть WhatsApp';
       nextQuizStep(1);
     }
 
@@ -2246,28 +2276,68 @@
       }
     }
 
+    // 2. MODAL SUBMIT: МГНОВЕННЫЙ РЕДИРЕКТ В WHATSAPP / TELEGRAM / MAX
     function handleBookingSubmit(event) {
       event.preventDefault();
       const consent = document.getElementById('modalConsentCheckbox');
       if (!consent || !consent.checked) {
-        alert('Пожалуйста, подтвердите согласие на обработку персональных данных (152-ФЗ).');
         return;
       }
-      alert('Заявка успешно отправлена! Екатерина Рыбалкина свяжется с вами в течение 15 минут.');
-      closeBookingModal();
+
+      const name = document.getElementById('modalName')?.value.trim() || 'Клиент';
+      const phone = document.getElementById('modalPhone')?.value.trim() || '';
+      const tariff = document.getElementById('modalTariffHidden')?.value || 'Консультация';
+      const format = document.getElementById('modalFormat')?.value || 'whatsapp';
+      const userMsg = document.getElementById('modalMessage')?.value.trim() || '';
+
+      const btn = document.getElementById('modalSubmitBtn');
+      const btnText = document.getElementById('modalSubmitBtnText');
+      if (btn) btn.disabled = true;
+      if (btnText) btnText.innerText = 'Перенаправляем к Екатерине...';
+
+      let text = `Здравствуйте, Екатерина! Меня зовут ${name} (${phone}).\nХочу записаться на консультацию: ${tariff}.`;
+      if (userMsg) {
+        text += `\nМой запрос: ${userMsg}`;
+      }
+
+      let redirectUrl = `https://wa.me/79064707617?text=${encodeURIComponent(text)}`;
+      if (format === 'telegram') {
+        redirectUrl = `https://t.me/+79064707617`;
+      } else if (format === 'max') {
+        redirectUrl = `https://max.ru`;
+      }
+
+      setTimeout(() => {
+        closeBookingModal();
+        window.location.href = redirectUrl;
+      }, 300);
     }
 
+    // 3. CTA FORM SUBMIT: МГНОВЕННЫЙ РЕДИРЕКТ В WHATSAPP
     function handleCtaSubmit(event) {
       event.preventDefault();
       const consent = document.getElementById('ctaConsentCheckbox');
       if (!consent || !consent.checked) {
-        alert('Пожалуйста, подтвердите согласие на обработку персональных данных (152-ФЗ).');
         return;
       }
-      alert('Спасибо за обращение! Ваша заявка передана Екатерине Рыбалкиной.');
-      event.target.reset();
+
+      const name = document.getElementById('ctaName')?.value.trim() || 'Клиент';
+      const phone = document.getElementById('ctaPhone')?.value.trim() || '';
+      const tariffSelect = document.getElementById('ctaTariff');
+      const tariffText = tariffSelect?.options[tariffSelect.selectedIndex]?.text || 'Программа питания';
+
       const btn = document.getElementById('ctaSubmitBtn');
-      if (btn) btn.disabled = true;
+      if (btn) {
+        btn.disabled = true;
+        btn.innerHTML = '<span>Перенаправляем в WhatsApp к Екатерине...</span>';
+      }
+
+      const msg = `Здравствуйте, Екатерина! Меня зовут ${name} (${phone}).\nХочу записаться на программу: ${tariffText}.`;
+      const redirectUrl = `https://wa.me/79064707617?text=${encodeURIComponent(msg)}`;
+
+      setTimeout(() => {
+        window.location.href = redirectUrl;
+      }, 300);
     }
 
     // Legal Documents Modal Content
