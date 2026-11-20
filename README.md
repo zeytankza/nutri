@@ -106,3 +106,11 @@ python audit_code.py нутри      # 100% Passed (SEO, Schema.org, Yandex Maps
 python -m http.server 8088
 # Откройте в браузере: http://localhost:8088/нутри/index.html
 ```
+
+
+---
+
+## 🌐 Ссылка на опубликованный сайт (GitHub Pages):
+[https://zeytankza.github.io/nutri/](https://zeytankza.github.io/nutri/)
+
+Репозиторий проекта: [https://github.com/zeytankza/nutri](https://github.com/zeytankza/nutri)
