@@ -1,0 +1,2425 @@
+<!DOCTYPE html>
+<html lang="ru" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+  <title>Екатерина Воронова | Клинический нутрициолог | Здоровое питание, ЖКТ и снижение веса без диет</title>
+  <meta name="description" content="Индивидуальное сопровождение нутрициолога Екатерины Вороновой. Коррекция дефицитов по анализам крови, оздоровление ЖКТ, устойчивое снижение веса без голода и срывов. Онлайн по всей РФ и очно в Москве." />
+  <meta name="keywords" content="нутрициолог Москва, консультация нутрициолога, похудение без диет, расшифровка анализов, нутрициолог онлайн, план питания, диетолог Москва, здоровый рацион, лечение вздутия ЖКТ" />
+  <meta name="author" content="Екатерина Воронова" />
+  <meta name="theme-color" content="#153E32" />
+
+  <!-- Open Graph / VK / Telegram -->
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="ru_RU" />
+  <meta property="og:site_name" content="Екатерина Воронова | Клинический нутрициолог" />
+  <meta property="og:title" content="Клинический нутрициолог Екатерина Воронова | Здоровье, энергия и легкость" />
+  <meta property="og:description" content="Индивидуальные программы питания на основе доказательной медицины и анализов крови. Без жестких диет и БАДов горстями. Запишитесь на вводную консультацию." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=1200&q=80" />
+
+  <!-- Schema.org Microdata (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HealthAndBeautyBusiness",
+    "name": "Клинический нутрициолог Екатерина Воронова",
+    "image": "https://images.unsplash.com/photo-1594824813637-25e21966a4bc?auto=format&fit=crop&w=800&q=80",
+    "telephone": "+7-926-880-45-20",
+    "email": "expert@voronova-nutrition.ru",
+    "url": "https://voronova-nutrition.ru",
+    "priceRange": "6500 - 45000 RUB",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "ул. Новый Арбат, 21",
+      "addressLocality": "Москва",
+      "addressCountry": "RU"
+    },
+    "founder": {
+      "@type": "Person",
+      "name": "Екатерина Воронова",
+      "jobTitle": "Дипломированный клинический нутрициолог"
+    }
+  }
+  </script>
+
+  <!-- Favicon SVG -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%23153E32'/%3E%3Cpath d='M50 18 C32 35 24 50 24 64 C24 78 35 86 50 86 C65 86 76 78 76 64 C76 50 68 35 50 18 Z' fill='%23C58A43' opacity='0.9'/%3E%3Cpath d='M50 32 C41 45 36 56 36 66 C36 74 42 79 50 79 C58 79 64 74 64 66 C64 56 59 45 50 32 Z' fill='%23FAF8F5'/%3E%3Ccircle cx='50' cy='63' r='4' fill='%23153E32'/%3E%3C/svg%3E" />
+
+  <!-- Google Fonts: Cormorant Garamond (Serif) + Plus Jakarta Sans (Clean Modern Sans) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CSS 3.4 CDN -->
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            serif: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+            sans: ['"Plus Jakarta Sans"', 'system-ui', '-apple-system', 'sans-serif'],
+          },
+          colors: {
+            forest: {
+              DEFAULT: '#153E32',
+              dark: '#0E2921',
+              deep: '#091C16',
+              light: '#1F5445',
+              border: '#286251',
+            },
+            herb: {
+              50: '#F4F8F5',
+              100: '#E6F1EB',
+              200: '#CEE2D6',
+              300: '#A9CCBA',
+              400: '#7CB096',
+              500: '#4A7C64',
+              600: '#3A6350',
+              700: '#2D4C3D',
+            },
+            amberGold: {
+              DEFAULT: '#C58A43',
+              dark: '#A56F2D',
+              light: '#DA9F56',
+              soft: '#F9F1E7',
+              border: '#E8D2B7',
+            },
+            cream: {
+              50: '#FFFFFF',
+              100: '#FCFAF7',
+              200: '#FAF8F5',
+              300: '#F3EFEA',
+              400: '#EAE4DC',
+              500: '#DAD2C6',
+            },
+            slateDark: {
+              DEFAULT: '#111827',
+              soft: '#1F2937',
+              muted: '#374151',
+              subtle: '#4B5563',
+              light: '#6B7280',
+            }
+          },
+          boxShadow: {
+            'soft': '0 10px 30px -10px rgba(21, 62, 50, 0.08)',
+            'card': '0 12px 32px -8px rgba(21, 62, 50, 0.07), 0 3px 8px -2px rgba(21, 62, 50, 0.04)',
+            'elevated': '0 24px 50px -12px rgba(21, 62, 50, 0.16)',
+            'forest-glow': '0 10px 25px -5px rgba(21, 62, 50, 0.35)',
+            'gold-glow': '0 10px 25px -5px rgba(197, 138, 67, 0.30)',
+          },
+          animation: {
+            'float': 'float 4s ease-in-out infinite',
+            'pulse-subtle': 'pulseSubtle 2.5s ease-in-out infinite',
+          },
+          keyframes: {
+            float: {
+              '0%, 100%': { transform: 'translateY(0px)' },
+              '50%': { transform: 'translateY(-6px)' },
+            },
+            pulseSubtle: {
+              '0%, 100%': { opacity: '1', transform: 'scale(1)' },
+              '50%': { opacity: '0.9', transform: 'scale(1.02)' },
+            }
+          }
+        }
+      }
+    };
+  </script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <style>
+    /* Custom scrollbars */
+    ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #FAF8F5;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #A9CCBA;
+      border-radius: 9999px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #4A7C64;
+    }
+    .scrollbar-none::-webkit-scrollbar {
+      display: none;
+    }
+    .scrollbar-none {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+    /* Mobile text input iOS zoom prevention */
+    input, select, textarea {
+      font-size: 16px !important;
+    }
+    @media (min-width: 640px) {
+      input, select, textarea {
+        font-size: 0.875rem !important;
+      }
+    }
+  </style>
+</head>
+<body class="bg-cream-200 text-slateDark antialiased font-sans selection:bg-herb-200 selection:text-forest-dark overflow-x-hidden">
+
+  <!-- =========================================================================
+       1. TOP NOTIFICATION BAR (Доказательная медицина & Быстрый контакт)
+       ========================================================================= -->
+  <div class="bg-forest-deep text-cream-100 text-xs py-2 px-4 border-b border-white/10 hidden sm:block">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+      <div class="flex items-center gap-3">
+        <span class="inline-flex items-center gap-1.5 text-amberGold font-medium">
+          <i data-lucide="shield-check" class="w-3.5 h-3.5"></i>
+          Диплом гос. образца РФ • Сертификация Stanford Center for Health Education
+        </span>
+        <span class="text-white/20">•</span>
+        <span class="text-cream-300/80">Очно в Москве (Новый Арбат, 21) и онлайн по всему миру</span>
+      </div>
+      <div class="flex items-center gap-4 text-cream-200">
+        <a href="https://t.me/voronova_nutrition" target="_blank" rel="noopener noreferrer" class="hover:text-amberGold flex items-center gap-1 transition-colors">
+          <i data-lucide="send" class="w-3 h-3"></i> Telegram
+        </a>
+        <a href="https://wa.me/79268804520" target="_blank" rel="noopener noreferrer" class="hover:text-amberGold flex items-center gap-1 transition-colors">
+          <i data-lucide="message-circle" class="w-3 h-3"></i> WhatsApp
+        </a>
+        <a href="tel:+79268804520" class="font-bold text-white hover:text-amberGold transition-colors">
+          +7 (926) 880-45-20
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       2. HEADER & NAVIGATION
+       ========================================================================= -->
+  <header class="sticky top-0 z-40 bg-cream-200/90 backdrop-blur-md border-b border-cream-400 transition-all duration-300" id="mainHeader">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      
+      <!-- Logo -->
+      <a href="#" class="flex items-center gap-3 group">
+        <div class="w-11 h-11 rounded-2xl bg-forest flex items-center justify-center text-amberGold shadow-card group-hover:scale-105 transition-transform">
+          <i data-lucide="leaf" class="w-6 h-6"></i>
+        </div>
+        <div>
+          <span class="block font-serif text-2xl font-bold tracking-tight text-forest group-hover:text-forest-light transition-colors leading-tight">
+            Екатерина Воронова
+          </span>
+          <span class="block text-[11px] uppercase tracking-widest text-amberGold-dark font-semibold">
+            Клинический нутрициолог
+          </span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="hidden lg:flex items-center gap-7 text-sm font-medium text-slateDark-muted">
+        <a href="#about" class="hover:text-forest transition-colors">Обо мне</a>
+        <a href="#quiz" class="hover:text-forest transition-colors flex items-center gap-1 text-forest font-semibold">
+          <span class="w-2 h-2 rounded-full bg-amberGold animate-pulse"></span>
+          Квиз-тест
+        </a>
+        <a href="#problems" class="hover:text-forest transition-colors">С чем помогаю</a>
+        <a href="#method" class="hover:text-forest transition-colors">Методика</a>
+        <a href="#programs" class="hover:text-forest transition-colors">Тарифы</a>
+        <a href="#calculator" class="hover:text-forest transition-colors">Калькулятор</a>
+        <a href="#cases" class="hover:text-forest transition-colors">Кейсы</a>
+        <a href="#location" class="hover:text-forest transition-colors">Контакты</a>
+        <a href="#faq" class="hover:text-forest transition-colors">FAQ</a>
+      </nav>
+
+      <!-- Action Buttons -->
+      <div class="flex items-center gap-3">
+        <a href="tel:+79268804520" class="hidden sm:flex lg:hidden items-center justify-center w-10 h-10 rounded-xl bg-forest/10 text-forest hover:bg-forest hover:text-white transition-colors" title="Позвонить">
+          <i data-lucide="phone" class="w-4 h-4"></i>
+        </a>
+        <button 
+          onclick="openBookingModal('Экспресс-диагностика (Шапка)')" 
+          class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-forest text-cream-100 hover:bg-forest-light font-semibold text-sm transition-all duration-300 shadow-card hover:shadow-elevated active:scale-95"
+        >
+          <i data-lucide="calendar" class="w-4 h-4 text-amberGold"></i>
+          <span>Записаться</span>
+        </button>
+
+        <!-- Mobile Burger Button -->
+        <button 
+          type="button" 
+          onclick="toggleMobileMenu()" 
+          id="mobileMenuBtn"
+          class="lg:hidden p-2.5 rounded-xl bg-white border border-cream-400 text-slateDark hover:bg-cream-300 transition-colors"
+          aria-label="Открыть мобильное меню"
+        >
+          <i data-lucide="menu" class="w-6 h-6" id="burgerIcon"></i>
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Mobile Drawer Menu -->
+    <div id="mobileMenu" class="hidden lg:hidden bg-cream-100 border-b border-cream-400 px-4 pt-4 pb-6 space-y-3 transition-all">
+      <nav class="flex flex-col space-y-3 text-base font-medium text-slateDark-muted">
+        <a href="#about" onclick="toggleMobileMenu()" class="py-2 px-3 rounded-lg hover:bg-cream-300 hover:text-forest transition-colors">О специалисте</a>
+        <a href="#quiz" onclick="toggleMobileMenu()" class="py-2 px-3 rounded-lg bg-herb-100 text-forest font-semibold flex items-center justify-between">
+          <span>Онлайн квиз-диагностика</span>
+          <span class="text-xs bg-amberGold text-white px-2 py-0.5 rounded-full font-bold">Бонус</span>
+        </a>
+        <a href="#problems" onclick="toggleMobileMenu()" class="py-2 px-3 rounded-lg hover:bg-cream-300 hover:text-forest transition-colors">С чем помогаю</a>
+        <a href="#method" onclick="toggleMobileMenu()" class="py-2 px-3 rounded-lg hover:bg-cream-300 hover:text-forest transition-colors">Научный метод</a>
+        <a href="#programs" onclick="toggleMobileMenu()" class="py-2 px-3 rounded-lg hover:bg-cream-300 hover:text-forest transition-colors">Программы и цены</a>
+        <a href="#calculator" onclick="toggleMobileMenu()" class="py-2 px-3 rounded-lg hover:bg-cream-300 hover:text-forest transition-colors">Калькулятор нормы воды и белка</a>
+        <a href="#cases" onclick="toggleMobileMenu()" class="py-2 px-3 rounded-lg hover:bg-cream-300 hover:text-forest transition-colors">Результаты клиентов</a>
+        <a href="#location" onclick="toggleMobileMenu()" class="py-2 px-3 rounded-lg hover:bg-cream-300 hover:text-forest transition-colors">Кабинет в Москве и онлайн</a>
+        <a href="#faq" onclick="toggleMobileMenu()" class="py-2 px-3 rounded-lg hover:bg-cream-300 hover:text-forest transition-colors">Вопросы и ответы</a>
+      </nav>
+      <div class="pt-3 border-t border-cream-400 flex flex-col gap-2.5">
+        <button 
+          onclick="toggleMobileMenu(); openBookingModal('Мобильное меню')" 
+          class="w-full py-3 rounded-xl bg-forest text-cream-100 font-semibold text-center shadow-card hover:bg-forest-light transition-colors"
+        >
+          Записаться на консультацию
+        </button>
+        <div class="flex items-center justify-around text-xs text-slateDark-subtle pt-2">
+          <a href="tel:+79268804520" class="flex items-center gap-1.5 font-bold text-forest">
+            <i data-lucide="phone-call" class="w-3.5 h-3.5"></i> +7 (926) 880-45-20
+          </a>
+          <a href="https://t.me/voronova_nutrition" target="_blank" rel="noopener noreferrer" class="flex items-center gap-1 text-forest hover:underline">
+            <i data-lucide="send" class="w-3.5 h-3.5"></i> Telegram
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- =========================================================================
+       3. HERO SECTION (Главный экран)
+       ========================================================================= -->
+  <section class="relative pt-8 pb-16 lg:pt-16 lg:pb-24 overflow-hidden">
+    <!-- Decorative organic background shapes -->
+    <div class="absolute -top-24 -right-24 w-96 h-96 rounded-full bg-herb-100/60 blur-3xl pointer-events-none -z-10"></div>
+    <div class="absolute top-1/2 -left-20 w-80 h-80 rounded-full bg-amberGold-soft/50 blur-3xl pointer-events-none -z-10"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+        
+        <!-- Left Column: Copy & Offer -->
+        <div class="lg:col-span-7 space-y-6 text-left">
+          
+          <!-- Badge -->
+          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-herb-100 border border-herb-300 text-forest text-xs font-semibold tracking-wide shadow-sm">
+            <i data-lucide="sparkles" class="w-3.5 h-3.5 text-amberGold-dark"></i>
+            <span>Доказательная нутрициология & Функциональная медицина</span>
+          </div>
+
+          <!-- Main Title -->
+          <h1 class="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold text-forest tracking-tight leading-[1.15]">
+            Верните телу легкость, энергию и <span class="italic text-amberGold-dark font-medium">здоровый вес</span> без чувства вины и голодовок
+          </h1>
+
+          <!-- Subtitle -->
+          <p class="text-base sm:text-lg text-slateDark-muted leading-relaxed max-w-2xl">
+            Персональный рацион на основе лабораторных анализов крови и биохимии ЖКТ. Работаем с первопричиной симптомов, а не маскируем их: без жестких запретов, взвешивания листьев салата и 20 банок БАДов.
+          </p>
+
+          <!-- Key Pillars Checklist -->
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-3.5 pt-2">
+            <div class="flex items-center gap-2.5 p-3 rounded-xl bg-white/80 border border-cream-400 shadow-sm">
+              <div class="w-7 h-7 rounded-lg bg-herb-100 text-forest flex items-center justify-center flex-shrink-0">
+                <i data-lucide="check" class="w-4 h-4 text-forest"></i>
+              </div>
+              <span class="text-xs font-medium text-slateDark">Анализ дефицитов по крови</span>
+            </div>
+            <div class="flex items-center gap-2.5 p-3 rounded-xl bg-white/80 border border-cream-400 shadow-sm">
+              <div class="w-7 h-7 rounded-lg bg-herb-100 text-forest flex items-center justify-center flex-shrink-0">
+                <i data-lucide="check" class="w-4 h-4 text-forest"></i>
+              </div>
+              <span class="text-xs font-medium text-slateDark">Сытное меню из супермаркета</span>
+            </div>
+            <div class="flex items-center gap-2.5 p-3 rounded-xl bg-white/80 border border-cream-400 shadow-sm">
+              <div class="w-7 h-7 rounded-lg bg-herb-100 text-forest flex items-center justify-center flex-shrink-0">
+                <i data-lucide="check" class="w-4 h-4 text-forest"></i>
+              </div>
+              <span class="text-xs font-medium text-slateDark">Поддержка 24/7 в Telegram</span>
+            </div>
+          </div>
+
+          <!-- CTAs -->
+          <div class="pt-4 flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
+            <button 
+              onclick="openBookingModal('Главный экран: Запись на консультацию')" 
+              class="px-8 py-4 rounded-xl bg-forest hover:bg-forest-light text-cream-100 font-bold text-base transition-all duration-300 shadow-elevated hover:-translate-y-0.5 flex items-center justify-center gap-3 active:scale-95"
+            >
+              <span>Подобрать программу питания</span>
+              <i data-lucide="arrow-right" class="w-5 h-5 text-amberGold"></i>
+            </button>
+            <a 
+              href="#quiz" 
+              class="px-6 py-4 rounded-xl bg-white hover:bg-cream-100 border border-cream-400 text-forest font-semibold text-base transition-all duration-200 shadow-sm flex items-center justify-center gap-2 text-center"
+            >
+              <i data-lucide="help-circle" class="w-4 h-4 text-amberGold"></i>
+              <span>Пройти экспресс-тест (2 мин)</span>
+            </a>
+          </div>
+
+          <!-- Social Proof metrics -->
+          <div class="pt-6 border-t border-cream-400 flex flex-wrap items-center gap-8 text-slateDark-muted text-xs">
+            <div class="flex items-center gap-2">
+              <div class="flex -space-x-2">
+                <img class="inline-block h-8 w-8 rounded-full ring-2 ring-white object-cover" loading="lazy" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=100&q=80" alt="Клиент Анна" />
+                <img class="inline-block h-8 w-8 rounded-full ring-2 ring-white object-cover" loading="lazy" src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=100&q=80" alt="Клиент Ольга" />
+                <img class="inline-block h-8 w-8 rounded-full ring-2 ring-white object-cover" loading="lazy" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=100&q=80" alt="Клиент Михаил" />
+              </div>
+              <div class="text-left">
+                <div class="flex text-amber-500 text-[10px]">
+                  ★★★★★
+                </div>
+                <span class="font-bold text-slateDark text-xs">1 200+</span> довольных клиентов
+              </div>
+            </div>
+            <div>
+              <span class="font-bold text-forest text-sm">7+ лет</span> практики
+            </div>
+            <div>
+              <span class="font-bold text-forest text-sm">94%</span> удерживают вес через год
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right Column: Visual Portrait & Floating Achievement Badges -->
+        <div class="lg:col-span-5 relative">
+          <div class="relative mx-auto max-w-md lg:max-w-none">
+            
+            <!-- Main Photo Card -->
+            <div class="relative rounded-3xl overflow-hidden shadow-elevated border-4 border-white bg-cream-300 aspect-[4/5] sm:aspect-[3/4]">
+              <img 
+                src="https://images.unsplash.com/photo-1594824813637-25e21966a4bc?auto=format&fit=crop&w=800&q=80" 
+                alt="Клинический нутрициолог Екатерина Воронова" 
+                class="w-full h-full object-cover object-top"
+                loading="eager"
+              />
+              <div class="absolute inset-0 bg-gradient-to-t from-forest-deep/80 via-transparent to-transparent"></div>
+              
+              <div class="absolute bottom-5 left-5 right-5 text-white">
+                <p class="font-serif text-2xl font-bold">Екатерина Воронова</p>
+                <p class="text-xs text-amberGold font-medium">Дипломированный превентивный нутрициолог • Член НОД</p>
+              </div>
+            </div>
+
+            <!-- Floating Badge 1: Top Left (Safe bounds) -->
+            <div class="pointer-events-none absolute top-3 left-3 sm:-top-4 sm:-left-6 bg-white/95 backdrop-blur-md p-3.5 rounded-2xl shadow-elevated border border-cream-400 flex items-center gap-3 animate-float max-w-[210px] z-10">
+              <div class="w-10 h-10 rounded-xl bg-herb-100 flex items-center justify-center text-forest flex-shrink-0">
+                <i data-lucide="activity" class="w-5 h-5 text-forest"></i>
+              </div>
+              <div class="text-left">
+                <p class="text-[11px] text-slateDark-light uppercase font-semibold">Ферритин и ЖКТ</p>
+                <p class="text-xs font-bold text-forest">Нормализация без капельниц</p>
+              </div>
+            </div>
+
+            <!-- Floating Badge 2: Bottom Right (Safe bounds) -->
+            <div class="pointer-events-none absolute bottom-3 right-3 sm:-bottom-6 sm:-right-6 bg-white/95 backdrop-blur-md p-3.5 rounded-2xl shadow-elevated border border-cream-400 flex items-center gap-3 max-w-[220px] z-10">
+              <div class="w-10 h-10 rounded-xl bg-amberGold-soft flex items-center justify-center text-amberGold-dark flex-shrink-0">
+                <i data-lucide="scale" class="w-5 h-5"></i>
+              </div>
+              <div class="text-left">
+                <p class="text-[11px] text-slateDark-light uppercase font-semibold">Снижение веса</p>
+                <p class="text-xs font-bold text-forest">-8.4 кг за 60 дней без жестких диет</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       4. INTERACTIVE QUIZ SECTION (Интерактивная диагностика & Лид-магнит)
+       ========================================================================= -->
+  <section id="quiz" class="py-16 bg-cream-100 border-y border-cream-400 scroll-mt-20">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-2xl mx-auto mb-10">
+        <span class="inline-block text-xs font-bold uppercase tracking-widest text-amberGold-dark bg-amberGold-soft px-3 py-1 rounded-full mb-3">
+          Экспресс-диагностика за 2 минуты
+        </span>
+        <h2 class="font-serif text-3xl sm:text-4xl font-bold text-forest tracking-tight">
+          Узнайте скрытую причину усталости и лишнего веса
+        </h2>
+        <p class="text-slateDark-muted text-sm sm:text-base mt-2">
+          Ответьте на 3 вопроса о вашем самочувствии. В конце вы получите предварительный расчет персональной стратегии + PDF-гайд «Топ-10 скрытых дефицитов» в подарок.
+        </p>
+      </div>
+
+      <!-- Quiz Card Container -->
+      <div class="bg-white rounded-3xl p-6 sm:p-10 shadow-elevated border border-cream-400 relative overflow-hidden">
+        
+        <!-- Progress Bar -->
+        <div class="mb-8">
+          <div class="flex justify-between items-center text-xs font-semibold text-slateDark-subtle mb-2">
+            <span id="quizStepIndicator">Шаг 1 из 3</span>
+            <span id="quizProgressPercent" class="text-forest font-bold">33%</span>
+          </div>
+          <div class="w-full h-2.5 bg-cream-300 rounded-full overflow-hidden">
+            <div id="quizProgressBar" class="h-full bg-forest rounded-full transition-all duration-500" style="width: 33%"></div>
+          </div>
+        </div>
+
+        <!-- Quiz Forms / Steps -->
+        <form id="quizForm" onsubmit="handleQuizSubmit(event)">
+          
+          <!-- STEP 1: Main Goal -->
+          <div id="quizStep1" class="quiz-step space-y-4">
+            <h3 class="text-lg sm:text-xl font-bold text-forest">
+              1. Какая цель сейчас для вас в главном приоритете?
+            </h3>
+            <p class="text-xs text-slateDark-light">Выберите один наиболее важный пункт:</p>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3.5 pt-2">
+              <label class="flex items-center gap-3 p-4 rounded-2xl border-2 border-cream-400 hover:border-forest/50 hover:bg-herb-50 cursor-pointer transition-all">
+                <input type="radio" name="goal" value="weight_loss" class="w-4 h-4 text-forest focus:ring-forest" checked />
+                <div>
+                  <span class="block text-sm font-bold text-slateDark">Снижение веса и уменьшение объемов</span>
+                  <span class="block text-xs text-slateDark-light">Без жестких ограничений и эффекта йо-йо</span>
+                </div>
+              </label>
+
+              <label class="flex items-center gap-3 p-4 rounded-2xl border-2 border-cream-400 hover:border-forest/50 hover:bg-herb-50 cursor-pointer transition-all">
+                <input type="radio" name="goal" value="gut_health" class="w-4 h-4 text-forest focus:ring-forest" />
+                <div>
+                  <span class="block text-sm font-bold text-slateDark">Здоровье ЖКТ и плоский живот</span>
+                  <span class="block text-xs text-slateDark-light">Убрать вздутия, тяжесть и наладить стул</span>
+                </div>
+              </label>
+
+              <label class="flex items-center gap-3 p-4 rounded-2xl border-2 border-cream-400 hover:border-forest/50 hover:bg-herb-50 cursor-pointer transition-all">
+                <input type="radio" name="goal" value="energy_recovery" class="w-4 h-4 text-forest focus:ring-forest" />
+                <div>
+                  <span class="block text-sm font-bold text-slateDark">Энергия, сон и борьба с апатией</span>
+                  <span class="block text-xs text-slateDark-light">Просыпаться бодрым, убрать «туман в голове»</span>
+                </div>
+              </label>
+
+              <label class="flex items-center gap-3 p-4 rounded-2xl border-2 border-cream-400 hover:border-forest/50 hover:bg-herb-50 cursor-pointer transition-all">
+                <input type="radio" name="goal" value="hormones_skin" class="w-4 h-4 text-forest focus:ring-forest" />
+                <div>
+                  <span class="block text-sm font-bold text-slateDark">Гормоны, чистая кожа и волосы</span>
+                  <span class="block text-xs text-slateDark-light">Нормализация цикла, устранение акне и отеков</span>
+                </div>
+              </label>
+            </div>
+
+            <div class="pt-6 flex justify-end">
+              <button 
+                type="button" 
+                onclick="nextQuizStep(2)" 
+                class="px-6 py-3 rounded-xl bg-forest hover:bg-forest-light text-white font-semibold text-sm transition-all flex items-center gap-2"
+              >
+                <span>Далее к симптомам</span>
+                <i data-lucide="arrow-right" class="w-4 h-4"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- STEP 2: Symptoms -->
+          <div id="quizStep2" class="quiz-step hidden space-y-4">
+            <h3 class="text-lg sm:text-xl font-bold text-forest">
+              2. Какие симптомы вы замечаете чаще всего за последний месяц?
+            </h3>
+            <p class="text-xs text-slateDark-light">Выберите характерные признаки (можно выбрать несколько):</p>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3.5 pt-2">
+              <label class="flex items-center gap-3 p-3.5 rounded-2xl border border-cream-400 hover:bg-herb-50 cursor-pointer transition-all">
+                <input type="checkbox" name="symptoms" value="sugar_craving" class="w-4 h-4 text-forest rounded focus:ring-forest" />
+                <span class="text-xs sm:text-sm font-medium text-slateDark">Непреодолимая тяга к сладкому / кофе после еды</span>
+              </label>
+
+              <label class="flex items-center gap-3 p-3.5 rounded-2xl border border-cream-400 hover:bg-herb-50 cursor-pointer transition-all">
+                <input type="checkbox" name="symptoms" value="afternoon_slump" class="w-4 h-4 text-forest rounded focus:ring-forest" />
+                <span class="text-xs sm:text-sm font-medium text-slateDark">Резкий спад энергии и сонливость к 14:00–16:00</span>
+              </label>
+
+              <label class="flex items-center gap-3 p-3.5 rounded-2xl border border-cream-400 hover:bg-herb-50 cursor-pointer transition-all">
+                <input type="checkbox" name="symptoms" value="bloating" class="w-4 h-4 text-forest rounded focus:ring-forest" />
+                <span class="text-xs sm:text-sm font-medium text-slateDark">Вздутие живота к вечеру («живот как на 5 месяце»)</span>
+              </label>
+
+              <label class="flex items-center gap-3 p-3.5 rounded-2xl border border-cream-400 hover:bg-herb-50 cursor-pointer transition-all">
+                <input type="checkbox" name="symptoms" value="edema_hair" class="w-4 h-4 text-forest rounded focus:ring-forest" />
+                <span class="text-xs sm:text-sm font-medium text-slateDark">Утренние отеки под глазами, ломкость волос</span>
+              </label>
+            </div>
+
+            <div class="pt-6 flex justify-between items-center">
+              <button 
+                type="button" 
+                onclick="nextQuizStep(1)" 
+                class="px-5 py-2.5 rounded-xl border border-cream-400 text-slateDark-muted font-medium text-xs hover:bg-cream-200 transition-colors"
+              >
+                Назад
+              </button>
+              <button 
+                type="button" 
+                onclick="nextQuizStep(3)" 
+                class="px-6 py-3 rounded-xl bg-forest hover:bg-forest-light text-white font-semibold text-sm transition-all flex items-center gap-2"
+              >
+                <span>Далее: Ваш опыт</span>
+                <i data-lucide="arrow-right" class="w-4 h-4"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- STEP 3: Experience & Result Calculation Form -->
+          <div id="quizStep3" class="quiz-step hidden space-y-5">
+            <h3 class="text-lg sm:text-xl font-bold text-forest">
+              3. Сдавали ли вы анализы крови за последние 6 месяцев?
+            </h3>
+
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+              <label class="flex items-center gap-2.5 p-3 rounded-xl border border-cream-400 hover:bg-herb-50 cursor-pointer">
+                <input type="radio" name="tests" value="recent" class="w-4 h-4 text-forest focus:ring-forest" checked />
+                <span class="text-xs font-medium text-slateDark">Да, есть свежие анализы</span>
+              </label>
+              <label class="flex items-center gap-2.5 p-3 rounded-xl border border-cream-400 hover:bg-herb-50 cursor-pointer">
+                <input type="radio" name="tests" value="old" class="w-4 h-4 text-forest focus:ring-forest" />
+                <span class="text-xs font-medium text-slateDark">Сдавал(а) более года назад</span>
+              </label>
+              <label class="flex items-center gap-2.5 p-3 rounded-xl border border-cream-400 hover:bg-herb-50 cursor-pointer">
+                <input type="radio" name="tests" value="never" class="w-4 h-4 text-forest focus:ring-forest" />
+                <span class="text-xs font-medium text-slateDark">Не сдавал(а), нужен список</span>
+              </label>
+            </div>
+
+            <!-- Lead Capture & Consent Form -->
+            <div class="mt-6 p-5 sm:p-6 bg-cream-200 rounded-2xl border border-cream-400 space-y-4">
+              <div class="flex items-center gap-3 text-forest">
+                <i data-lucide="gift" class="w-6 h-6 text-amberGold flex-shrink-0"></i>
+                <p class="text-xs sm:text-sm font-semibold text-forest">
+                  Куда отправить предварительный разбор вашего кейса и гайд «Топ-10 дефицитов»?
+                </p>
+              </div>
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div>
+                  <label class="block text-xs font-medium text-slateDark-muted mb-1">Ваше имя</label>
+                  <input 
+                    type="text" 
+                    id="quizName" 
+                    name="name" 
+                    required 
+                    placeholder="Например, Анна" 
+                    class="w-full px-4 py-3 rounded-xl bg-white border border-cream-400 focus:outline-none focus:border-forest text-base sm:text-sm transition-all"
+                  />
+                </div>
+                <div>
+                  <label class="block text-xs font-medium text-slateDark-muted mb-1">Номер телефона (Telegram / WhatsApp)</label>
+                  <input 
+                    type="tel" 
+                    id="quizPhone" 
+                    name="phone" 
+                    required 
+                    placeholder="+7 (___) ___-__-__" 
+                    class="w-full px-4 py-3 rounded-xl bg-white border border-cream-400 focus:outline-none focus:border-forest text-base sm:text-sm transition-all"
+                  />
+                </div>
+              </div>
+
+              <!-- 152-ФЗ ЧЕКБОКС СОГЛАСИЯ (ОТКЛЮЧЕН ПО УМОЛЧАНИЮ) -->
+              <div class="pt-2">
+                <label class="flex items-start gap-3 cursor-pointer text-left select-none group">
+                  <input 
+                    type="checkbox" 
+                    id="quizConsentCheckbox" 
+                    class="mt-1 w-4 h-4 rounded border-gray-300 text-forest focus:ring-forest cursor-pointer"
+                    onchange="toggleQuizSubmitButton(this)"
+                  />
+                  <span class="text-xs text-slateDark-muted leading-relaxed">
+                    Даю согласие на обработку персональных данных и соглашаюсь с 
+                    <a href="#" onclick="openLegalModal('privacy'); return false;" class="text-forest font-semibold underline hover:text-black">Политикой конфиденциальности</a> 
+                    в соответствии с 152-ФЗ РФ.
+                  </span>
+                </label>
+              </div>
+
+              <!-- Submit Button (Disabled by default) -->
+              <button 
+                type="submit" 
+                id="quizSubmitBtn" 
+                disabled 
+                class="w-full py-4 px-6 rounded-xl bg-forest text-cream-100 font-bold text-sm sm:text-base transition-all duration-200 shadow-card disabled:opacity-40 disabled:cursor-not-allowed hover:bg-forest-light flex items-center justify-center gap-2"
+              >
+                <i data-lucide="check-circle" class="w-5 h-5 text-amberGold"></i>
+                <span>Получить план питания и забрать гайд</span>
+              </button>
+            </div>
+
+            <div class="pt-2">
+              <button 
+                type="button" 
+                onclick="nextQuizStep(2)" 
+                class="px-5 py-2.5 rounded-xl border border-cream-400 text-slateDark-muted font-medium text-xs hover:bg-cream-200 transition-colors"
+              >
+                Назад
+              </button>
+            </div>
+          </div>
+
+          <!-- SUCCESS STATE -->
+          <div id="quizSuccess" class="quiz-step hidden py-8 text-center space-y-4">
+            <div class="w-16 h-16 rounded-full bg-herb-100 text-forest mx-auto flex items-center justify-center">
+              <i data-lucide="check" class="w-8 h-8"></i>
+            </div>
+            <h3 class="font-serif text-2xl sm:text-3xl font-bold text-forest">Спасибо! Ответы приняты</h3>
+            <p class="text-sm text-slateDark-muted max-w-md mx-auto">
+              Екатерина уже анализирует ваши ответы. В течение 15 минут в Telegram/WhatsApp придет ссылка на скачивание гайда «Топ-10 дефицитов» и персональные рекомендации.
+            </p>
+            <div class="pt-4">
+              <button 
+                type="button" 
+                onclick="resetQuiz()" 
+                class="px-5 py-2 rounded-xl bg-cream-300 text-forest text-xs font-semibold hover:bg-cream-400 transition-colors"
+              >
+                Пройти квиз заново
+              </button>
+            </div>
+          </div>
+
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       5. С ЧЕМ ПРИХОДЯТ КЛИЕНТЫ (4 ПЕРСОНЫ / БОЛИ ЦА)
+       ========================================================================= -->
+  <section id="problems" class="py-16 sm:py-24 bg-cream-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-14">
+        <span class="text-xs font-bold uppercase tracking-widest text-amberGold-dark bg-amberGold-soft px-3 py-1 rounded-full">
+          Целевые сценарии
+        </span>
+        <h2 class="font-serif text-3xl sm:text-5xl font-bold text-forest tracking-tight mt-3">
+          Узнаете ли вы себя в этих ситуациях?
+        </h2>
+        <p class="text-slateDark-muted text-base mt-3">
+          Большинство проблем с телом — это не «слабая сила воли», а понятные сигналы биохимического дисбаланса, дефицитов железа, магния и сбоя в микробиоте.
+        </p>
+      </div>
+
+      <!-- Mobile Horizontal Scroll Container with Snap / Desktop Grid -->
+      <div class="overflow-x-auto snap-x snap-mandatory scrollbar-none pb-4 -mx-4 px-4 sm:mx-0 sm:px-0">
+        <div class="flex sm:grid sm:grid-cols-2 lg:grid-cols-4 gap-6 min-w-[280px]">
+          
+          <!-- Card 1: Вечно на диетах -->
+          <div class="snap-center flex-shrink-0 w-[290px] sm:w-auto bg-white rounded-3xl p-6 sm:p-7 border border-cream-400 shadow-card flex flex-col justify-between hover:shadow-elevated transition-shadow">
+            <div>
+              <div class="w-12 h-12 rounded-2xl bg-herb-100 text-forest flex items-center justify-center mb-5 text-xl">
+                🥗
+              </div>
+              <span class="text-[11px] font-bold uppercase tracking-wider text-amberGold-dark">Сценарий #1</span>
+              <h3 class="font-serif text-xl font-bold text-forest mt-1 mb-3">«Вечно худеющая»</h3>
+              <p class="text-xs sm:text-sm text-slateDark-muted leading-relaxed">
+                Считаете каждую калорию, боитесь углеводов, сидели на интервалке и кето. Вес уходит на 2-3 кг, но затем следует неминуемый срыв, чувство вины и возврат с плюсом.
+              </p>
+            </div>
+            <div class="mt-6 pt-4 border-t border-cream-300">
+              <p class="text-xs font-semibold text-forest">Решение Екатерины:</p>
+              <p class="text-[11px] text-slateDark-light mt-1">
+                Разгон метаболизма через повышение калорийности и баланс белков и клетчатки. Без чувства голода.
+              </p>
+            </div>
+          </div>
+
+          <!-- Card 2: Хроническая усталость -->
+          <div class="snap-center flex-shrink-0 w-[290px] sm:w-auto bg-white rounded-3xl p-6 sm:p-7 border border-cream-400 shadow-card flex flex-col justify-between hover:shadow-elevated transition-shadow">
+            <div>
+              <div class="w-12 h-12 rounded-2xl bg-amberGold-soft text-amberGold-dark flex items-center justify-center mb-5 text-xl">
+                ⚡
+              </div>
+              <span class="text-[11px] font-bold uppercase tracking-wider text-amberGold-dark">Сценарий #2</span>
+              <h3 class="font-serif text-xl font-bold text-forest mt-1 mb-3">«Усталая мама / Эксперт»</h3>
+              <p class="text-xs sm:text-sm text-slateDark-muted leading-relaxed">
+                Просыпаетесь уже уставшей. К 14:00 нет сил работать, спасают только 3 чашки кофе и сладости. По анализам в поликлинике «вы здоровы», а жить тяжело.
+              </p>
+            </div>
+            <div class="mt-6 pt-4 border-t border-cream-300">
+              <p class="text-xs font-semibold text-forest">Решение Екатерины:</p>
+              <p class="text-[11px] text-slateDark-light mt-1">
+                Поиск скрытой анемии, проверка ферритина, витамина D, щитовидной железы и мягкая нутрицевтическая поддержка.
+              </p>
+            </div>
+          </div>
+
+          <!-- Card 3: Проблемный ЖКТ -->
+          <div class="snap-center flex-shrink-0 w-[290px] sm:w-auto bg-white rounded-3xl p-6 sm:p-7 border border-cream-400 shadow-card flex flex-col justify-between hover:shadow-elevated transition-shadow">
+            <div>
+              <div class="w-12 h-12 rounded-2xl bg-herb-100 text-forest flex items-center justify-center mb-5 text-xl">
+                🌿
+              </div>
+              <span class="text-[11px] font-bold uppercase tracking-wider text-amberGold-dark">Сценарий #3</span>
+              <h3 class="font-serif text-xl font-bold text-forest mt-1 mb-3">«Вздутия и тяжесть»</h3>
+              <p class="text-xs sm:text-sm text-slateDark-muted leading-relaxed">
+                Утром живот плоский, а после обеда приходится расстегивать пуговицу на джинсах. Реагируете на яблоки, молочку или глютен. Постоянный дискомфорт.
+              </p>
+            </div>
+            <div class="mt-6 pt-4 border-t border-cream-300">
+              <p class="text-xs font-semibold text-forest">Решение Екатерины:</p>
+              <p class="text-[11px] text-slateDark-light mt-1">
+                Протокол восстановления слизистой ЖКТ (4R/5R), элиминация триггеров и мягкая нормализация кислотности.
+              </p>
+            </div>
+          </div>
+
+          <!-- Card 4: Гормональный дисбаланс и отеки -->
+          <div class="snap-center flex-shrink-0 w-[290px] sm:w-auto bg-white rounded-3xl p-6 sm:p-7 border border-cream-400 shadow-card flex flex-col justify-between hover:shadow-elevated transition-shadow">
+            <div>
+              <div class="w-12 h-12 rounded-2xl bg-amberGold-soft text-amberGold-dark flex items-center justify-center mb-5 text-xl">
+                🌸
+              </div>
+              <span class="text-[11px] font-bold uppercase tracking-wider text-amberGold-dark">Сценарий #4</span>
+              <h3 class="font-serif text-xl font-bold text-forest mt-1 mb-3">«Гормоны, кожа и отеки»</h3>
+              <p class="text-xs sm:text-sm text-slateDark-muted leading-relaxed">
+                Нерегулярный цикл, выраженный ПМС, высыпания на подбородке, отеки по утрам. Задержка жидкости до 2–3 кг перед менструацией или в период перименопаузы.
+              </p>
+            </div>
+            <div class="mt-6 pt-4 border-t border-cream-300">
+              <p class="text-xs font-semibold text-forest">Решение Екатерины:</p>
+              <p class="text-[11px] text-slateDark-light mt-1">
+                Налаживание детоксикации печени, оттока желчи и балансировка соотношения эстроген/прогестерон питанием.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       6. ОБ ЭКСПЕРТЕ (ЕКАТЕРИНА ВОРОНОВА) & ДИПЛОМЫ
+       ========================================================================= -->
+  <section id="about" class="py-16 sm:py-24 bg-cream-100 border-t border-cream-400">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Left: Photo with Diploma Badge -->
+        <div class="lg:col-span-5 relative">
+          <div class="relative rounded-3xl overflow-hidden shadow-elevated border-4 border-white aspect-[3/4] bg-cream-300">
+            <img 
+              src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=800&q=80" 
+              alt="Дипломированный нутрициолог Екатерина Воронова" 
+              class="w-full h-full object-cover"
+              loading="lazy"
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-forest-deep/60 via-transparent to-transparent"></div>
+            
+            <div class="absolute bottom-4 left-4 right-4 bg-white/95 backdrop-blur-md p-4 rounded-2xl border border-cream-400 shadow-card">
+              <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-xl bg-forest text-amberGold flex items-center justify-center flex-shrink-0">
+                  <i data-lucide="award" class="w-5 h-5"></i>
+                </div>
+                <div>
+                  <p class="text-xs font-bold text-forest">Stanford Medicine Nutrition</p>
+                  <p class="text-[11px] text-slateDark-subtle">Международный сертификат превентивного питания</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Bio & Credentials -->
+        <div class="lg:col-span-7 space-y-6">
+          <span class="text-xs font-bold uppercase tracking-widest text-amberGold-dark bg-amberGold-soft px-3 py-1 rounded-full">
+            О специалисте
+          </span>
+          <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-forest tracking-tight">
+            «Моя задача — подружить вас с едой, а не посадить на пожизненную диету»
+          </h2>
+
+          <!-- Quote with accent left border -->
+          <div class="p-4 sm:p-5 rounded-2xl bg-white border-l-4 border-amberGold shadow-sm text-slateDark-muted italic text-sm sm:text-base leading-relaxed">
+            «Я не сторонник экстремальных марафонов, где за неделю сбрасывают 5 кг ценой разрушения мышц и посаженного иммунитета. Здоровье строится на физиологии, адекватных порциях вкусной еды и точечной ликвидации дефицитов по анализам.»
+          </div>
+
+          <div class="space-y-3 text-sm text-slateDark-muted leading-relaxed">
+            <p>
+              Меня зовут <strong>Екатерина Воронова</strong>. Я дипломированный клинический нутрициолог и специалист по функциональной диетологии. Окончила Международную Академию Нутрициологии с отличием, прошла повышение квалификации в Stanford Center for Health Education по курсу Nutrition Science.
+            </p>
+            <p>
+              Являюсь действующим членом <strong>Национального общества диетологов и нутрициологов РФ</strong>. За 7 лет частной практики я помогла более чем 1 200 клиентам вернуть энергию, сбросить лишний вес без чувства голода и нормализовать показатели здоровья.
+            </p>
+          </div>
+
+          <!-- Credentials list -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
+            <div class="flex items-center gap-3 p-3 rounded-xl bg-white border border-cream-400">
+              <i data-lucide="check-circle-2" class="w-5 h-5 text-forest flex-shrink-0"></i>
+              <span class="text-xs font-medium text-slateDark">Диплом гос. образца о профпереподготовке</span>
+            </div>
+            <div class="flex items-center gap-3 p-3 rounded-xl bg-white border border-cream-400">
+              <i data-lucide="check-circle-2" class="w-5 h-5 text-forest flex-shrink-0"></i>
+              <span class="text-xs font-medium text-slateDark">Член Национального общества нутрициологов</span>
+            </div>
+            <div class="flex items-center gap-3 p-3 rounded-xl bg-white border border-cream-400">
+              <i data-lucide="check-circle-2" class="w-5 h-5 text-forest flex-shrink-0"></i>
+              <span class="text-xs font-medium text-slateDark">Stanford Medicine Nutrition Science Cert.</span>
+            </div>
+            <div class="flex items-center gap-3 p-3 rounded-xl bg-white border border-cream-400">
+              <i data-lucide="check-circle-2" class="w-5 h-5 text-forest flex-shrink-0"></i>
+              <span class="text-xs font-medium text-slateDark">Более 1 200 довольных пациентов</span>
+            </div>
+          </div>
+
+          <!-- Action -->
+          <div class="pt-4 flex items-center gap-4">
+            <button 
+              onclick="openBookingModal('Обо мне: Запись на консультацию')" 
+              class="px-6 py-3.5 rounded-xl bg-forest hover:bg-forest-light text-white font-semibold text-sm transition-all shadow-card"
+            >
+              Записаться на разбор
+            </button>
+            <a 
+              href="https://t.me/voronova_nutrition" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              class="px-5 py-3.5 rounded-xl bg-white border border-cream-400 hover:bg-cream-200 text-forest font-semibold text-sm transition-all flex items-center gap-2"
+            >
+              <i data-lucide="send" class="w-4 h-4 text-forest"></i>
+              <span>Задать вопрос в Telegram</span>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       7. МЕТОДИКА РАБОТЫ (5 ШАГОВ К РЕЗУЛЬТАТУ)
+       ========================================================================= -->
+  <section id="method" class="py-16 sm:py-24 bg-cream-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <span class="text-xs font-bold uppercase tracking-widest text-amberGold-dark bg-amberGold-soft px-3 py-1 rounded-full">
+          Доказательный протокол
+        </span>
+        <h2 class="font-serif text-3xl sm:text-4xl font-bold text-forest tracking-tight mt-3">
+          Как мы достигаем стабильного результата за 5 шагов
+        </h2>
+        <p class="text-slateDark-muted text-sm sm:text-base mt-2">
+          Никакой магии и догадок: системная работа от биохимии крови до рецептов на вашей кухне.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6">
+        
+        <!-- Step 1 -->
+        <div class="bg-white rounded-3xl p-6 border border-cream-400 shadow-card flex flex-col justify-between relative hover:-translate-y-1 transition-transform">
+          <div>
+            <div class="w-10 h-10 rounded-xl bg-forest text-amberGold font-bold flex items-center justify-center text-sm mb-4">
+              01
+            </div>
+            <h3 class="font-bold text-forest text-base mb-2">Глубокий скрининг</h3>
+            <p class="text-xs text-slateDark-muted leading-relaxed">
+              Анализ вашего образа жизни, пищевого дневника за 3 дня, сна, уровня стресса и вкусовых предпочтений семьи.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-cream-300 text-[11px] text-amberGold-dark font-medium">
+            Опросник на 50+ маркеров
+          </div>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="bg-white rounded-3xl p-6 border border-cream-400 shadow-card flex flex-col justify-between relative hover:-translate-y-1 transition-transform">
+          <div>
+            <div class="w-10 h-10 rounded-xl bg-forest text-amberGold font-bold flex items-center justify-center text-sm mb-4">
+              02
+            </div>
+            <h3 class="font-bold text-forest text-base mb-2">Анализ крови</h3>
+            <p class="text-xs text-slateDark-muted leading-relaxed">
+              Оценка не по широким нормам поликлиники, а по узким функциональным оптимумам здоровья (ферритин, B12, витамин D, ТТГ, инсулин).
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-cream-300 text-[11px] text-amberGold-dark font-medium">
+            Выявление скрытых дефицитов
+          </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="bg-white rounded-3xl p-6 border border-cream-400 shadow-card flex flex-col justify-between relative hover:-translate-y-1 transition-transform">
+          <div>
+            <div class="w-10 h-10 rounded-xl bg-forest text-amberGold font-bold flex items-center justify-center text-sm mb-4">
+              03
+            </div>
+            <h3 class="font-bold text-forest text-base mb-2">Матрица меню</h3>
+            <p class="text-xs text-slateDark-muted leading-relaxed">
+              Индивидуальная схема питания из привычных и доступных продуктов. Конструктор сытных тарелок, легкие рецепты за 15 минут.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-cream-300 text-[11px] text-amberGold-dark font-medium">
+            Без экзотики и очередей
+          </div>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="bg-white rounded-3xl p-6 border border-cream-400 shadow-card flex flex-col justify-between relative hover:-translate-y-1 transition-transform">
+          <div>
+            <div class="w-10 h-10 rounded-xl bg-forest text-amberGold font-bold flex items-center justify-center text-sm mb-4">
+              04
+            </div>
+            <h3 class="font-bold text-forest text-base mb-2">Коррекция</h3>
+            <p class="text-xs text-slateDark-muted leading-relaxed">
+              Назначение биодоступных форм витаминов и минералов (хелаты, цитраты, коферменты) строго под ваши показатели без перегрузки печени.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-cream-300 text-[11px] text-amberGold-dark font-medium">
+            Только доказанные формы
+          </div>
+        </div>
+
+        <!-- Step 5 -->
+        <div class="bg-white rounded-3xl p-6 border border-cream-400 shadow-card flex flex-col justify-between relative hover:-translate-y-1 transition-transform">
+          <div>
+            <div class="w-10 h-10 rounded-xl bg-forest text-amberGold font-bold flex items-center justify-center text-sm mb-4">
+              05
+            </div>
+            <h3 class="font-bold text-forest text-base mb-2">Ведение и чат</h3>
+            <p class="text-xs text-slateDark-muted leading-relaxed">
+              Ежедневный разбор тарелок в Telegram, ответы на вопросы из ресторанов и супермаркетов. Моральная поддержка без критики.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-cream-300 text-[11px] text-amberGold-dark font-medium">
+            Устойчивые привычки
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       8. ТАРИФЫ И ПРОГРАММЫ (КАТАЛОГ С ЦЕНАМИ)
+       ========================================================================= -->
+  <section id="programs" class="py-16 sm:py-24 bg-cream-100 border-t border-cream-400 scroll-mt-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <span class="text-xs font-bold uppercase tracking-widest text-amberGold-dark bg-amberGold-soft px-3 py-1 rounded-full">
+          Форматы работы
+        </span>
+        <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-forest tracking-tight mt-3">
+          Выберите подходящую программу
+        </h2>
+        <p class="text-slateDark-muted text-sm sm:text-base mt-2">
+          От разовой консультации с подробным планом до трехмесячного полного VIP-сопровождения до гарантированного результата.
+        </p>
+      </div>
+
+      <!-- Programs Grid / Mobile horizontal scroll -->
+      <div class="overflow-x-auto snap-x snap-mandatory scrollbar-none pb-6 -mx-4 px-4 sm:mx-0 sm:px-0">
+        <div class="flex sm:grid sm:grid-cols-2 lg:grid-cols-3 gap-8 min-w-[300px]">
+          
+          <!-- Program 1: Экспресс-консультация -->
+          <div class="snap-center flex-shrink-0 w-[300px] sm:w-auto bg-white rounded-3xl p-7 border border-cream-400 shadow-card flex flex-col justify-between hover:shadow-elevated transition-all">
+            <div>
+              <div class="flex justify-between items-start mb-4">
+                <span class="text-xs font-bold uppercase tracking-wider text-slateDark-light">Старт</span>
+                <span class="text-xs bg-cream-300 text-forest px-2.5 py-1 rounded-full font-semibold">1 встреча (60 мин)</span>
+              </div>
+              <h3 class="font-serif text-2xl font-bold text-forest">Разовая консультация + План</h3>
+              <p class="text-xs text-slateDark-muted mt-2 mb-6 leading-relaxed">
+                Идеально для тех, кто хочет получить независимый аудит анализов и понять, куда двигаться дальше.
+              </p>
+              
+              <div class="mb-6">
+                <span class="text-3xl font-bold text-forest">6 500 ₽</span>
+                <span class="text-xs text-slateDark-light ml-1">/ разовая оплата</span>
+              </div>
+
+              <!-- Included features -->
+              <ul class="space-y-3 text-xs text-slateDark-muted border-t border-cream-300 pt-5">
+                <li class="flex items-center gap-2.5">
+                  <i data-lucide="check" class="w-4 h-4 text-forest flex-shrink-0"></i>
+                  <span>Разбор анализов крови по оптимумам здоровья</span>
+                </li>
+                <li class="flex items-center gap-2.5">
+                  <i data-lucide="check" class="w-4 h-4 text-forest flex-shrink-0"></i>
+                  <span>Аудит текущего пищевого дневника</span>
+                </li>
+                <li class="flex items-center gap-2.5">
+                  <i data-lucide="check" class="w-4 h-4 text-forest flex-shrink-0"></i>
+                  <span>Письменное заключение и схема добавок</span>
+                </li>
+                <li class="flex items-center gap-2.5 text-slateDark-light line-through">
+                  <i data-lucide="x" class="w-4 h-4 text-slateDark-light flex-shrink-0"></i>
+                  <span>Ежедневное сопровождение в чате</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="mt-8">
+              <button 
+                onclick="openBookingModal('Тариф: Разовая консультация (6 500 ₽)')" 
+                class="w-full py-3.5 rounded-xl bg-white border-2 border-forest hover:bg-forest hover:text-white text-forest font-bold text-xs sm:text-sm transition-all"
+              >
+                Выбрать тариф
+              </button>
+            </div>
+          </div>
+
+          <!-- Program 2: Полное ведение 1 месяц (Хит продаж) -->
+          <div class="snap-center flex-shrink-0 w-[300px] sm:w-auto bg-forest text-cream-100 rounded-3xl p-7 border-2 border-amberGold shadow-elevated flex flex-col justify-between relative transform lg:-translate-y-2">
+            <!-- Hit Badge -->
+            <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-amberGold text-forest-deep px-4 py-1 rounded-full text-[11px] font-bold uppercase tracking-wider shadow-md">
+              ★ Выбор 80% клиентов
+            </div>
+
+            <div>
+              <div class="flex justify-between items-start mb-4 mt-2">
+                <span class="text-xs font-bold uppercase tracking-wider text-amberGold">Трансформация</span>
+                <span class="text-xs bg-forest-light text-cream-100 px-2.5 py-1 rounded-full font-semibold">1 месяц</span>
+              </div>
+              <h3 class="font-serif text-2xl font-bold text-white">«Перезагрузка метаболизма»</h3>
+              <p class="text-xs text-cream-300/80 mt-2 mb-6 leading-relaxed">
+                Комплексная работа: снижение веса на 3–5 кг, нормализация стула и восстановление энергии под моим личным контролем.
+              </p>
+              
+              <div class="mb-6">
+                <span class="text-3xl font-bold text-amberGold">18 000 ₽</span>
+                <span class="text-xs text-cream-300/60 ml-1">/ 4 недели ведения</span>
+              </div>
+
+              <!-- Included features -->
+              <ul class="space-y-3 text-xs text-cream-200 border-t border-forest-border pt-5">
+                <li class="flex items-center gap-2.5">
+                  <i data-lucide="check" class="w-4 h-4 text-amberGold flex-shrink-0"></i>
+                  <span>2 персональные видео-консультации по 60 мин</span>
+                </li>
+                <li class="flex items-center gap-2.5">
+                  <i data-lucide="check" class="w-4 h-4 text-amberGold flex-shrink-0"></i>
+                  <span>Персональный рацион питания на каждый день</span>
+                </li>
+                <li class="flex items-center gap-2.5">
+                  <i data-lucide="check" class="w-4 h-4 text-amberGold flex-shrink-0"></i>
+                  <span>Ежедневная поддержка в Telegram (разбор тарелок)</span>
+                </li>
+                <li class="flex items-center gap-2.5">
+                  <i data-lucide="check" class="w-4 h-4 text-amberGold flex-shrink-0"></i>
+                  <span>Подбор нутрицевтиков и витаминов</span>
+                </li>
+                <li class="flex items-center gap-2.5">
+                  <i data-lucide="check" class="w-4 h-4 text-amberGold flex-shrink-0"></i>
+                  <span>Книга рецептов и конструктор блюд в подарок</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="mt-8">
+              <button 
+                onclick="openBookingModal('Тариф: Перезагрузка метаболизма 1 месяц (18 000 ₽)')" 
+                class="w-full py-4 rounded-xl bg-amberGold hover:bg-amberGold-light text-forest-deep font-bold text-sm transition-all shadow-gold-glow active:scale-95"
+              >
+                Начать сопровождение
+              </button>
+            </div>
+          </div>
+
+          <!-- Program 3: VIP Сопровождение 3 месяца -->
+          <div class="snap-center flex-shrink-0 w-[300px] sm:w-auto bg-white rounded-3xl p-7 border border-cream-400 shadow-card flex flex-col justify-between hover:shadow-elevated transition-all">
+            <div>
+              <div class="flex justify-between items-start mb-4">
+                <span class="text-xs font-bold uppercase tracking-wider text-slateDark-light">Максимум</span>
+                <span class="text-xs bg-cream-300 text-forest px-2.5 py-1 rounded-full font-semibold">3 месяца</span>
+              </div>
+              <h3 class="font-serif text-2xl font-bold text-forest">VIP «Новое тело под ключ»</h3>
+              <p class="text-xs text-slateDark-muted mt-2 mb-6 leading-relaxed">
+                Глубинная работа с хроническими состояниями ЖКТ, гормональным балансом и стойким снижением веса от 8 до 15 кг.
+              </p>
+              
+              <div class="mb-6">
+                <span class="text-3xl font-bold text-forest">45 000 ₽</span>
+                <span class="text-xs text-slateDark-light ml-1">/ 12 недель (рассрочка 0%)</span>
+              </div>
+
+              <!-- Included features -->
+              <ul class="space-y-3 text-xs text-slateDark-muted border-t border-cream-300 pt-5">
+                <li class="flex items-center gap-2.5">
+                  <i data-lucide="check" class="w-4 h-4 text-forest flex-shrink-0"></i>
+                  <span>6 подробных видео-сессий с отслеживанием динамики</span>
+                </li>
+                <li class="flex items-center gap-2.5">
+                  <i data-lucide="check" class="w-4 h-4 text-forest flex-shrink-0"></i>
+                  <span>Повторный аудит анализов через 2 месяца</span>
+                </li>
+                <li class="flex items-center gap-2.5">
+                  <i data-lucide="check" class="w-4 h-4 text-forest flex-shrink-0"></i>
+                  <span>Приоритетный личный чат со мной без кураторов</span>
+                </li>
+                <li class="flex items-center gap-2.5">
+                  <i data-lucide="check" class="w-4 h-4 text-forest flex-shrink-0"></i>
+                  <span>Адаптация меню под командировки и праздники</span>
+                </li>
+                <li class="flex items-center gap-2.5">
+                  <i data-lucide="check" class="w-4 h-4 text-forest flex-shrink-0"></i>
+                  <span>План удержания результата на 1 год вперед</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="mt-8">
+              <button 
+                onclick="openBookingModal('Тариф: VIP Новое тело под ключ 3 месяца (45 000 ₽)')" 
+                class="w-full py-3.5 rounded-xl bg-white border-2 border-forest hover:bg-forest hover:text-white text-forest font-bold text-xs sm:text-sm transition-all"
+              >
+                Забронировать VIP
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Safe payment disclaimer -->
+      <div class="mt-8 text-center text-xs text-slateDark-subtle flex flex-wrap items-center justify-center gap-4">
+        <span class="flex items-center gap-1.5"><i data-lucide="shield-check" class="w-4 h-4 text-forest"></i> Официальный договор и чек (ФЗ-54)</span>
+        <span>•</span>
+        <span class="flex items-center gap-1.5"><i data-lucide="credit-card" class="w-4 h-4 text-forest"></i> Оплата картами РФ, СБП и безопасная рассрочка 0%</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       9. ИНТЕРАКТИВНЫЙ КАЛЬКУЛЯТОР ВОДЫ И БЕЛКА
+       ========================================================================= -->
+  <section id="calculator" class="py-16 sm:py-24 bg-cream-200 border-t border-cream-400">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-xl mx-auto mb-10">
+        <span class="text-xs font-bold uppercase tracking-widest text-amberGold-dark bg-amberGold-soft px-3 py-1 rounded-full">
+          Интерактивный инструмент
+        </span>
+        <h2 class="font-serif text-3xl sm:text-4xl font-bold text-forest tracking-tight mt-3">
+          Калькулятор суточной нормы воды и белка
+        </h2>
+        <p class="text-slateDark-muted text-xs sm:text-sm mt-2">
+          Укажите ваш текущий вес и уровень активности, чтобы получить научно обоснованный базовый расчет.
+        </p>
+      </div>
+
+      <div class="bg-white rounded-3xl p-6 sm:p-10 border border-cream-400 shadow-card">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+          
+          <!-- Controls -->
+          <div class="space-y-5">
+            <div>
+              <div class="flex justify-between items-center mb-1">
+                <label class="text-xs font-bold text-slateDark">Ваш текущий вес:</label>
+                <span id="weightValue" class="text-sm font-bold text-forest">65 кг</span>
+              </div>
+              <input 
+                type="range" 
+                id="weightInput" 
+                min="40" 
+                max="130" 
+                value="65" 
+                class="w-full h-2 bg-cream-300 rounded-lg appearance-none cursor-pointer accent-forest"
+                oninput="calculateNutriMetrics()"
+              />
+              <div class="flex justify-between text-[10px] text-slateDark-light mt-1">
+                <span>40 кг</span>
+                <span>85 кг</span>
+                <span>130 кг</span>
+              </div>
+            </div>
+
+            <div>
+              <label class="block text-xs font-bold text-slateDark mb-1.5">Уровень физической активности:</label>
+              <select 
+                id="activityInput" 
+                class="w-full px-4 py-3 rounded-xl bg-cream-100 border border-cream-400 focus:outline-none focus:border-forest text-base sm:text-sm"
+                onchange="calculateNutriMetrics()"
+              >
+                <option value="low">Сидячий образ жизни (до 5 000 шагов)</option>
+                <option value="moderate" selected>Умеренная активность (тренировки 2-3 раза в неделю)</option>
+                <option value="high">Высокая активность (ежедневный спорт / физ. работа)</option>
+              </select>
+            </div>
+
+            <div>
+              <label class="block text-xs font-bold text-slateDark mb-1.5">Основная цель:</label>
+              <select 
+                id="goalInput" 
+                class="w-full px-4 py-3 rounded-xl bg-cream-100 border border-cream-400 focus:outline-none focus:border-forest text-base sm:text-sm"
+                onchange="calculateNutriMetrics()"
+              >
+                <option value="loss" selected>Снижение веса и жиросжигание</option>
+                <option value="maintain">Поддержание формы и оздоровление ЖКТ</option>
+                <option value="gain">Набор мышечной массы</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Live Output Card -->
+          <div class="bg-herb-50 rounded-2xl p-6 border border-herb-200 space-y-4">
+            <h4 class="font-serif text-lg font-bold text-forest border-b border-herb-200 pb-2">
+              Ваши ориентировочные нормы:
+            </h4>
+
+            <div class="flex items-center justify-between">
+              <div>
+                <p class="text-xs text-slateDark-muted font-medium">Чистая питьевая вода</p>
+                <p class="text-[11px] text-slateDark-light">30–35 мл на 1 кг массы тела</p>
+              </div>
+              <span id="waterResult" class="font-bold text-xl text-forest">2.1 – 2.3 л/день</span>
+            </div>
+
+            <div class="flex items-center justify-between">
+              <div>
+                <p class="text-xs text-slateDark-muted font-medium">Чистый белок (сытость и мышцы)</p>
+                <p class="text-[11px] text-slateDark-light">1.2 – 1.6 г на 1 кг веса</p>
+              </div>
+              <span id="proteinResult" class="font-bold text-xl text-amberGold-dark">78 – 98 г/день</span>
+            </div>
+
+            <div class="flex items-center justify-between">
+              <div>
+                <p class="text-xs text-slateDark-muted font-medium">Клетчатка (микробиота ЖКТ)</p>
+                <p class="text-[11px] text-slateDark-light">Зелень, овощи, семена</p>
+              </div>
+              <span class="font-bold text-base text-forest">25 – 30 г/день</span>
+            </div>
+
+            <div class="pt-3">
+              <button 
+                onclick="openBookingModal('Калькулятор: Персональный расчет рациона')" 
+                class="w-full py-2.5 rounded-xl bg-forest hover:bg-forest-light text-white text-xs font-bold transition-colors"
+              >
+                Получить точное персональное меню
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       10. РЕАЛЬНЫЕ КЕЙСЫ ДО/ПОСЛЕ (С ЦИФРАМИ И АНАЛИЗАМИ)
+       ========================================================================= -->
+  <section id="cases" class="py-16 sm:py-24 bg-cream-100 border-t border-cream-400">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-2xl mx-auto mb-14">
+        <span class="text-xs font-bold uppercase tracking-widest text-amberGold-dark bg-amberGold-soft px-3 py-1 rounded-full">
+          Подтвержденные результаты
+        </span>
+        <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-forest tracking-tight mt-3">
+          Истории клиентов и лабораторная динамика
+        </h2>
+        <p class="text-slateDark-muted text-sm sm:text-base mt-2">
+          Мы измеряем успех не только стрелкой весов, но и уровнем ферритина, чистой кожей и отсутствием срывов.
+        </p>
+      </div>
+
+      <!-- Mobile Horizontal Scroll / Desktop Grid -->
+      <div class="overflow-x-auto snap-x snap-mandatory scrollbar-none pb-6 -mx-4 px-4 sm:mx-0 sm:px-0">
+        <div class="flex sm:grid sm:grid-cols-2 lg:grid-cols-3 gap-8 min-w-[300px]">
+          
+          <!-- Case 1 -->
+          <div class="snap-center flex-shrink-0 w-[300px] sm:w-auto bg-white rounded-3xl p-6 border border-cream-400 shadow-card flex flex-col justify-between">
+            <div>
+              <div class="flex items-center gap-3.5 mb-4">
+                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=120&q=80" alt="Анна" class="w-12 h-12 rounded-full object-cover border-2 border-forest" loading="lazy" />
+                <div>
+                  <h3 class="font-bold text-forest text-base">Анна, 34 года</h3>
+                  <p class="text-xs text-slateDark-light">Руководитель проектов, Москва</p>
+                </div>
+              </div>
+
+              <div class="bg-herb-50 p-3 rounded-xl mb-4 border border-herb-200 text-xs">
+                <span class="font-bold text-forest">Точка А:</span> Вес 76 кг при росте 168 см, тяга к сладкому по вечерам, ферритин 12 нг/мл (жесткий дефицит), сонливость.
+              </div>
+
+              <div class="space-y-2 text-xs text-slateDark-muted">
+                <p class="flex items-center gap-2">
+                  <i data-lucide="arrow-right-circle" class="w-4 h-4 text-forest flex-shrink-0"></i>
+                  <span><strong>Результат:</strong> -11.5 кг за 3 месяца (сейчас 64.5 кг)</span>
+                </p>
+                <p class="flex items-center gap-2">
+                  <i data-lucide="arrow-right-circle" class="w-4 h-4 text-forest flex-shrink-0"></i>
+                  <span>Ферритин вырос до 48 нг/мл без капельниц</span>
+                </p>
+                <p class="flex items-center gap-2">
+                  <i data-lucide="arrow-right-circle" class="w-4 h-4 text-forest flex-shrink-0"></i>
+                  <span>Ушли ночные зажоры, появилась легкость в теле</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="mt-5 pt-3 border-t border-cream-300 text-[11px] text-slateDark-light italic">
+              «Впервые за 10 лет я ем картофель и хлеб и худею! Больше нет страха перед едой.»
+            </div>
+          </div>
+
+          <!-- Case 2 -->
+          <div class="snap-center flex-shrink-0 w-[300px] sm:w-auto bg-white rounded-3xl p-6 border border-cream-400 shadow-card flex flex-col justify-between">
+            <div>
+              <div class="flex items-center gap-3.5 mb-4">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=120&q=80" alt="Михаил" class="w-12 h-12 rounded-full object-cover border-2 border-forest" loading="lazy" />
+                <div>
+                  <h3 class="font-bold text-forest text-base">Михаил, 42 года</h3>
+                  <p class="text-xs text-slateDark-light">Предприниматель, Санкт-Петербург</p>
+                </div>
+              </div>
+
+              <div class="bg-herb-50 p-3 rounded-xl mb-4 border border-herb-200 text-xs">
+                <span class="font-bold text-forest">Точка А:</span> Вес 98 кг, высокое давление 140/90, сахар натощак 6.4 ммоль/л, постоянная усталость после обеда.
+              </div>
+
+              <div class="space-y-2 text-xs text-slateDark-muted">
+                <p class="flex items-center gap-2">
+                  <i data-lucide="arrow-right-circle" class="w-4 h-4 text-forest flex-shrink-0"></i>
+                  <span><strong>Результат:</strong> -14 кг за 4 месяца</span>
+                </p>
+                <p class="flex items-center gap-2">
+                  <i data-lucide="arrow-right-circle" class="w-4 h-4 text-forest flex-shrink-0"></i>
+                  <span>Глюкоза снизилась до нормы 5.1 ммоль/л</span>
+                </p>
+                <p class="flex items-center gap-2">
+                  <i data-lucide="arrow-right-circle" class="w-4 h-4 text-forest flex-shrink-0"></i>
+                  <span>Давление стабилизировалось без таблеток</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="mt-5 pt-3 border-t border-cream-300 text-[11px] text-slateDark-light italic">
+              «Екатерина помогла выстроить питание в командировках и ресторанах. Вернулась мужская сила и фокус.»
+            </div>
+          </div>
+
+          <!-- Case 3 -->
+          <div class="snap-center flex-shrink-0 w-[300px] sm:w-auto bg-white rounded-3xl p-6 border border-cream-400 shadow-card flex flex-col justify-between">
+            <div>
+              <div class="flex items-center gap-3.5 mb-4">
+                <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=120&q=80" alt="Ольга" class="w-12 h-12 rounded-full object-cover border-2 border-forest" loading="lazy" />
+                <div>
+                  <h3 class="font-bold text-forest text-base">Ольга, 27 лет</h3>
+                  <p class="text-xs text-slateDark-light">Дизайнер, онлайн</p>
+                </div>
+              </div>
+
+              <div class="bg-herb-50 p-3 rounded-xl mb-4 border border-herb-200 text-xs">
+                <span class="font-bold text-forest">Точка А:</span> Акне на щеках и подбородке 5 лет, вздутия после каждого приема пищи, задержки цикла.
+              </div>
+
+              <div class="space-y-2 text-xs text-slateDark-muted">
+                <p class="flex items-center gap-2">
+                  <i data-lucide="arrow-right-circle" class="w-4 h-4 text-forest flex-shrink-0"></i>
+                  <span><strong>Результат:</strong> Кожа очистилась на 90%</span>
+                </p>
+                <p class="flex items-center gap-2">
+                  <i data-lucide="arrow-right-circle" class="w-4 h-4 text-forest flex-shrink-0"></i>
+                  <span>Полное исчезновение вздутий и тяжести</span>
+                </p>
+                <p class="flex items-center gap-2">
+                  <i data-lucide="arrow-right-circle" class="w-4 h-4 text-forest flex-shrink-0"></i>
+                  <span>Цикл стал регулярным день в день (28 дней)</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="mt-5 pt-3 border-t border-cream-300 text-[11px] text-slateDark-light italic">
+              «Косметологи не помогали годами. Секрет оказался в кишечнике и оттоке желчи. Спасибо Екатерине!»
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       11. ОТЗЫВЫ КЛИЕНТОВ (TELEGRAM / WHATSAPP ВЕРИФИКАЦИЯ)
+       ========================================================================= -->
+  <section class="py-16 sm:py-24 bg-cream-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-12 gap-4">
+        <div>
+          <span class="text-xs font-bold uppercase tracking-widest text-amberGold-dark bg-amberGold-soft px-3 py-1 rounded-full">
+            Честные отзывы
+          </span>
+          <h2 class="font-serif text-3xl sm:text-4xl font-bold text-forest tracking-tight mt-3">
+            Что говорят клиенты после совместной работы
+          </h2>
+        </div>
+        <div class="flex items-center gap-2 text-xs font-semibold text-forest bg-white px-4 py-2.5 rounded-xl border border-cream-400 shadow-sm">
+          <i data-lucide="check-check" class="w-4 h-4 text-forest"></i>
+          <span>Все отзывы реальны из закрытого чата Telegram</span>
+        </div>
+      </div>
+
+      <!-- Reviews Carousel / Mobile horizontal snap -->
+      <div class="overflow-x-auto snap-x snap-mandatory scrollbar-none pb-4 -mx-4 px-4 sm:mx-0 sm:px-0">
+        <div class="flex sm:grid sm:grid-cols-2 lg:grid-cols-3 gap-6 min-w-[290px]">
+          
+          <!-- Review 1 -->
+          <div class="snap-center flex-shrink-0 w-[290px] sm:w-auto bg-white rounded-3xl p-6 border border-cream-400 shadow-card flex flex-col justify-between">
+            <div class="space-y-3">
+              <div class="flex items-center justify-between">
+                <div class="flex text-amber-500 text-sm">★★★★★</div>
+                <span class="text-[10px] bg-herb-100 text-forest px-2 py-0.5 rounded font-bold">Тариф 1 месяц</span>
+              </div>
+              <p class="text-xs sm:text-sm text-slateDark-muted leading-relaxed">
+                «Екатерина — просто фея! Я думала, что нутрициолог запретит мне всё вкусное. А в итоге я ем сытно, десерты по ее рецептам обожает вся семья, и за месяц у меня ушло 4.2 кг и живот стал плоским!»
+              </p>
+            </div>
+            <div class="mt-6 pt-3 border-t border-cream-300 flex items-center justify-between text-xs">
+              <span class="font-bold text-forest">Марина С. (31 год)</span>
+              <span class="text-slateDark-light text-[11px]">г. Екатеринбург</span>
+            </div>
+          </div>
+
+          <!-- Review 2 -->
+          <div class="snap-center flex-shrink-0 w-[290px] sm:w-auto bg-white rounded-3xl p-6 border border-cream-400 shadow-card flex flex-col justify-between">
+            <div class="space-y-3">
+              <div class="flex items-center justify-between">
+                <div class="flex text-amber-500 text-sm">★★★★★</div>
+                <span class="text-[10px] bg-herb-100 text-forest px-2 py-0.5 rounded font-bold">Тариф VIP 3 мес.</span>
+              </div>
+              <p class="text-xs sm:text-sm text-slateDark-muted leading-relaxed">
+                «Главное, что я получил — это энергия. Раньше к обеду хотелось лечь и умереть. Екатерина нашла низкий ферритин и нехватку витамина Д, скорректировала рацион. Теперь успеваю в два раза больше!»
+              </p>
+            </div>
+            <div class="mt-6 pt-3 border-t border-cream-300 flex items-center justify-between text-xs">
+              <span class="font-bold text-forest">Дмитрий К. (38 лет)</span>
+              <span class="text-slateDark-light text-[11px]">г. Москва</span>
+            </div>
+          </div>
+
+          <!-- Review 3 -->
+          <div class="snap-center flex-shrink-0 w-[290px] sm:w-auto bg-white rounded-3xl p-6 border border-cream-400 shadow-card flex flex-col justify-between">
+            <div class="space-y-3">
+              <div class="flex items-center justify-between">
+                <div class="flex text-amber-500 text-sm">★★★★★</div>
+                <span class="text-[10px] bg-herb-100 text-forest px-2 py-0.5 rounded font-bold">Экспресс-разбор</span>
+              </div>
+              <p class="text-xs sm:text-sm text-slateDark-muted leading-relaxed">
+                «Консультация превзошла все ожидания. Екатерина за 1 час разложила по полочкам мои анализы лучше, чем терапевт в поликлинике. Четкая схема добавок и понятное меню. Очень рекомендую!»
+              </p>
+            </div>
+            <div class="mt-6 pt-3 border-t border-cream-300 flex items-center justify-between text-xs">
+              <span class="font-bold text-forest">Наталья В. (46 лет)</span>
+              <span class="text-slateDark-light text-[11px]">г. Казань</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       12. ЛОКАЦИЯ & ИНТЕРАКТИВНАЯ КАРТА (ЯНДЕКС КАРТЫ API)
+       ========================================================================= -->
+  <section id="location" class="py-16 sm:py-24 bg-cream-100 border-t border-cream-400 scroll-mt-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <span class="text-xs font-bold uppercase tracking-widest text-amberGold-dark bg-amberGold-soft px-3 py-1 rounded-full">
+          Где мы находимся
+        </span>
+        <h2 class="font-serif text-3xl sm:text-4xl font-bold text-forest tracking-tight mt-3">
+          Кабинет в Москве и онлайн по всему миру
+        </h2>
+        <p class="text-slateDark-muted text-sm sm:text-base mt-2">
+          Приглашаю на очную встречу в уютном кабинете на Новом Арбате или на онлайн-консультацию в комфортной обстановке.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
+        
+        <!-- Info Card -->
+        <div class="lg:col-span-5 bg-white rounded-3xl p-7 border border-cream-400 shadow-card flex flex-col justify-between">
+          <div class="space-y-6">
+            <div class="flex items-start gap-4">
+              <div class="w-10 h-10 rounded-xl bg-forest text-amberGold flex items-center justify-center flex-shrink-0">
+                <i data-lucide="map-pin" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-forest text-base">Адрес кабинета</h4>
+                <p class="text-xs sm:text-sm text-slateDark-muted mt-1 leading-relaxed">
+                  г. Москва, ул. Новый Арбат, 21 (м. Смоленская / Арбатская, 5 минут пешком).
+                </p>
+                <p class="text-xs text-amberGold-dark font-medium mt-1">
+                  Удобная городская парковка у здания.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4">
+              <div class="w-10 h-10 rounded-xl bg-forest text-amberGold flex items-center justify-center flex-shrink-0">
+                <i data-lucide="clock" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-forest text-base">Часы приема</h4>
+                <p class="text-xs sm:text-sm text-slateDark-muted mt-1">
+                  Понедельник – Суббота: с 09:00 до 20:00<br/>
+                  (строго по предварительной записи)
+                </p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4">
+              <div class="w-10 h-10 rounded-xl bg-forest text-amberGold flex items-center justify-center flex-shrink-0">
+                <i data-lucide="globe" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-forest text-base">Онлайн-прием</h4>
+                <p class="text-xs sm:text-sm text-slateDark-muted mt-1">
+                  Zoom, Telegram или видеозвонок WhatsApp для клиентов из любых городов РФ, СНГ и Европы.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="pt-6 border-t border-cream-300 mt-6 flex flex-col sm:flex-row gap-3">
+            <a 
+              href="https://yandex.ru/maps/?text=Москва,ул.+Новый+Арбат,+21" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              class="flex-1 py-3 px-4 rounded-xl bg-forest text-white hover:bg-forest-light text-xs font-bold transition-colors text-center flex items-center justify-center gap-2"
+            >
+              <span>Построить маршрут</span>
+              <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+            </a>
+            <button 
+              type="button" 
+              onclick="openBookingModal('Очный прием на Новом Арбате')" 
+              class="flex-1 py-3 px-4 rounded-xl border border-forest text-forest hover:bg-forest hover:text-white text-xs font-bold transition-colors text-center"
+            >
+              Записаться очно
+            </button>
+          </div>
+        </div>
+
+        <!-- Interactive Map Container (Clean Yandex Map, studio-map container) -->
+        <div class="lg:col-span-7 flex flex-col">
+          <div class="bg-cream-300 rounded-3xl overflow-hidden border border-cream-400 shadow-card min-h-[350px] sm:min-h-[420px] relative flex-1">
+            <div id="studio-map" class="w-full h-full min-h-[350px] sm:min-h-[420px] relative">
+              <!-- Loader indicator -->
+              <div id="map-loader" class="absolute inset-0 flex flex-col items-center justify-center gap-3 bg-cream-200 text-slateDark-muted z-10">
+                <div class="w-8 h-8 rounded-full border-2 border-forest border-t-transparent animate-spin"></div>
+                <span class="text-xs font-semibold text-forest">Загрузка интерактивной карты...</span>
+              </div>
+            </div>
+            
+            <!-- Map top address pill -->
+            <div class="absolute top-3 left-3 bg-white/95 backdrop-blur-md px-3 py-1.5 rounded-xl border border-cream-400 shadow-md text-xs font-bold text-forest flex items-center gap-2 pointer-events-none z-20">
+              <span class="w-2.5 h-2.5 rounded-full bg-emerald-600 animate-pulse"></span>
+              <span>Москва, ул. Новый Арбат, 21 • Кабинет нутрициологии</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       13. ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ (ИНТЕРАКТИВНЫЙ FAQ-АККОРДЕОН)
+       ========================================================================= -->
+  <section id="faq" class="py-16 sm:py-24 bg-cream-200 border-t border-cream-400 scroll-mt-20">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <span class="text-xs font-bold uppercase tracking-widest text-amberGold-dark bg-amberGold-soft px-3 py-1 rounded-full">
+          Ответы на частые вопросы
+        </span>
+        <h2 class="font-serif text-3xl sm:text-4xl font-bold text-forest tracking-tight mt-3">
+          Всё, что важно знать перед началом работы
+        </h2>
+      </div>
+
+      <!-- Accordion List -->
+      <div class="space-y-4" id="faqAccordion">
+        
+        <!-- Question 1 -->
+        <div class="bg-white rounded-2xl border border-cream-400 overflow-hidden shadow-sm transition-all">
+          <button 
+            type="button" 
+            onclick="toggleFaq(this)" 
+            class="w-full p-5 text-left flex justify-between items-center gap-4 hover:bg-cream-200/50 transition-colors"
+          >
+            <span class="font-bold text-sm sm:text-base text-forest">
+              Нужно ли заранее сдавать дорогостоящие анализы?
+            </span>
+            <div class="w-8 h-8 rounded-full bg-cream-300 flex items-center justify-center text-forest flex-shrink-0 transition-transform duration-300 icon-box">
+              <i data-lucide="plus" class="w-4 h-4"></i>
+            </div>
+          </button>
+          <div class="faq-content hidden px-5 pb-5 text-xs sm:text-sm text-slateDark-muted leading-relaxed border-t border-cream-300 pt-3">
+            Нет, заранее сдавать ничего не нужно! На первой консультации или после анкетирования я составляю список только тех анализов, которые действительно необходимы в вашем случае. Это защищает вас от лишних трат в лабораториях на ненужные показатели.
+          </div>
+        </div>
+
+        <!-- Question 2 -->
+        <div class="bg-white rounded-2xl border border-cream-400 overflow-hidden shadow-sm transition-all">
+          <button 
+            type="button" 
+            onclick="toggleFaq(this)" 
+            class="w-full p-5 text-left flex justify-between items-center gap-4 hover:bg-cream-200/50 transition-colors"
+          >
+            <span class="font-bold text-sm sm:text-base text-forest">
+              Придется ли мне готовить себе отдельно от всей семьи?
+            </span>
+            <div class="w-8 h-8 rounded-full bg-cream-300 flex items-center justify-center text-forest flex-shrink-0 transition-transform duration-300 icon-box">
+              <i data-lucide="plus" class="w-4 h-4"></i>
+            </div>
+          </button>
+          <div class="faq-content hidden px-5 pb-5 text-xs sm:text-sm text-slateDark-muted leading-relaxed border-t border-cream-300 pt-3">
+            Категорически нет. Рацион строится на принципах полноценного сбалансированного питания из обычных продуктов (рыба, птица, крупы, сезонные овощи, зелень, ягоды). Мои рецепты с удовольствием едят мужья и дети — это вкусно, сытно и экономит время на кухне.
+          </div>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="bg-white rounded-2xl border border-cream-400 overflow-hidden shadow-sm transition-all">
+          <button 
+            type="button" 
+            onclick="toggleFaq(this)" 
+            class="w-full p-5 text-left flex justify-between items-center gap-4 hover:bg-cream-200/50 transition-colors"
+          >
+            <span class="font-bold text-sm sm:text-base text-forest">
+              Как проходит онлайн-сопровождение, если я из другого города?
+            </span>
+            <div class="w-8 h-8 rounded-full bg-cream-300 flex items-center justify-center text-forest flex-shrink-0 transition-transform duration-300 icon-box">
+              <i data-lucide="plus" class="w-4 h-4"></i>
+            </div>
+          </button>
+          <div class="faq-content hidden px-5 pb-5 text-xs sm:text-sm text-slateDark-muted leading-relaxed border-t border-cream-300 pt-3">
+            Около 75% моих клиентов живут в других городах России и странах мира. Консультации проходят по видеосвязи (Zoom, Telegram), результаты анализов вы загружаете в электронном виде, а ежедневный чат в Telegram позволяет быть на связи и быстро получать ответы прямо из магазина или ресторана.
+          </div>
+        </div>
+
+        <!-- Question 4 -->
+        <div class="bg-white rounded-2xl border border-cream-400 overflow-hidden shadow-sm transition-all">
+          <button 
+            type="button" 
+            onclick="toggleFaq(this)" 
+            class="w-full p-5 text-left flex justify-between items-center gap-4 hover:bg-cream-200/50 transition-colors"
+          >
+            <span class="font-bold text-sm sm:text-base text-forest">
+              Чем клинический нутрициолог отличается от диетолога из поликлиники?
+            </span>
+            <div class="w-8 h-8 rounded-full bg-cream-300 flex items-center justify-center text-forest flex-shrink-0 transition-transform duration-300 icon-box">
+              <i data-lucide="plus" class="w-4 h-4"></i>
+            </div>
+          </button>
+          <div class="faq-content hidden px-5 pb-5 text-xs sm:text-sm text-slateDark-muted leading-relaxed border-t border-cream-300 pt-3">
+            Врач-диетолог в поликлинике часто ограничен 15 минутами приема и стандартизированными «диетическими столами №1–15». Нутрициолог работает превентивно и комплексно: оценивает микробиоту, сон, уровень стресса, проводит за руку через изменение привычек и ежедневно поддерживает в чате до закрепления устойчивого результата.
+          </div>
+        </div>
+
+        <!-- Question 5 -->
+        <div class="bg-white rounded-2xl border border-cream-400 overflow-hidden shadow-sm transition-all">
+          <button 
+            type="button" 
+            onclick="toggleFaq(this)" 
+            class="w-full p-5 text-left flex justify-between items-center gap-4 hover:bg-cream-200/50 transition-colors"
+          >
+            <span class="font-bold text-sm sm:text-base text-forest">
+              Что, если у меня нет силы воли и я сорвусь?
+            </span>
+            <div class="w-8 h-8 rounded-full bg-cream-300 flex items-center justify-center text-forest flex-shrink-0 transition-transform duration-300 icon-box">
+              <i data-lucide="plus" class="w-4 h-4"></i>
+            </div>
+          </button>
+          <div class="faq-content hidden px-5 pb-5 text-xs sm:text-sm text-slateDark-muted leading-relaxed border-t border-cream-300 pt-3">
+            Срывы происходят только тогда, когда организм голодает или лишен критически важных макронутриентов. В моей системе мы едим сытно. А если случается праздник или стресс — в чате я помогаю мягко вернуть баланс без самобичевания и «отработок» в спортзале.
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       14. ФИНАЛЬНЫЙ CTA & ФОРМА ЗАПИСИ
+       ========================================================================= -->
+  <section class="py-16 sm:py-24 bg-forest text-cream-100 relative overflow-hidden">
+    <div class="absolute -bottom-24 -left-24 w-96 h-96 rounded-full bg-herb-500/20 blur-3xl pointer-events-none"></div>
+
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="bg-forest-dark rounded-3xl p-8 sm:p-12 border border-forest-border shadow-elevated">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+          
+          <div class="lg:col-span-6 space-y-4">
+            <span class="text-xs font-bold uppercase tracking-widest text-amberGold bg-forest-light px-3 py-1 rounded-full">
+              Начните сегодня
+            </span>
+            <h2 class="font-serif text-3xl sm:text-4xl font-bold text-white tracking-tight">
+              Сделайте первый шаг к телу, в котором легко жить
+            </h2>
+            <p class="text-cream-300/80 text-xs sm:text-sm leading-relaxed">
+              Запишитесь на первичную консультацию или оставьте заявку на подбор программы. Я свяжусь с вами в Telegram/WhatsApp и отвечу на все вопросы.
+            </p>
+            
+            <div class="pt-2 space-y-2 text-xs text-cream-200">
+              <div class="flex items-center gap-2">
+                <i data-lucide="check" class="w-4 h-4 text-amberGold"></i>
+                <span>Индивидуальный разбор вашей ситуации</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <i data-lucide="check" class="w-4 h-4 text-amberGold"></i>
+                <span>Гайд «Топ-10 дефицитов» в подарок</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="lg:col-span-6 bg-cream-100 text-slateDark p-6 sm:p-8 rounded-2xl shadow-card">
+            <form onsubmit="handleCtaSubmit(event)" class="space-y-4">
+              <div>
+                <label class="block text-xs font-bold text-slateDark mb-1">Ваше имя</label>
+                <input 
+                  type="text" 
+                  id="ctaName" 
+                  required 
+                  placeholder="Как к вам обращаться?" 
+                  class="w-full px-4 py-3 rounded-xl bg-white border border-cream-400 focus:outline-none focus:border-forest text-base sm:text-sm"
+                />
+              </div>
+
+              <div>
+                <label class="block text-xs font-bold text-slateDark mb-1">Телефон (Telegram / WhatsApp)</label>
+                <input 
+                  type="tel" 
+                  id="ctaPhone" 
+                  required 
+                  placeholder="+7 (___) ___-__-__" 
+                  class="w-full px-4 py-3 rounded-xl bg-white border border-cream-400 focus:outline-none focus:border-forest text-base sm:text-sm"
+                />
+              </div>
+
+              <div>
+                <label class="block text-xs font-bold text-slateDark mb-1">Интересующая программа</label>
+                <select 
+                  id="ctaTariff" 
+                  class="w-full px-4 py-3 rounded-xl bg-white border border-cream-400 focus:outline-none focus:border-forest text-base sm:text-sm"
+                >
+                  <option value="consult">Разовая консультация + План (6 500 ₽)</option>
+                  <option value="month" selected>Перезагрузка метаболизма 1 месяц (18 000 ₽)</option>
+                  <option value="vip">VIP Сопровождение 3 месяца (45 000 ₽)</option>
+                  <option value="notsure">Пока не определился(лась), нужна подсказка</option>
+                </select>
+              </div>
+
+              <!-- 152-ФЗ ЧЕКБОКС СОГЛАСИЯ (ОТКЛЮЧЕН ПО УМОЛЧАНИЮ) -->
+              <div class="pt-1">
+                <label class="flex items-start gap-3 cursor-pointer text-left select-none group">
+                  <input 
+                    type="checkbox" 
+                    id="ctaConsentCheckbox" 
+                    class="mt-1 w-4 h-4 rounded border-gray-300 text-forest focus:ring-forest cursor-pointer"
+                    onchange="toggleCtaSubmitButton(this)"
+                  />
+                  <span class="text-[11px] text-slateDark-muted leading-relaxed">
+                    Даю согласие на обработку персональных данных и соглашаюсь с 
+                    <a href="#" onclick="openLegalModal('privacy'); return false;" class="text-forest font-semibold underline hover:text-black">Политикой конфиденциальности</a> 
+                    в соответствии с 152-ФЗ РФ.
+                  </span>
+                </label>
+              </div>
+
+              <button 
+                type="submit" 
+                id="ctaSubmitBtn" 
+                disabled 
+                class="w-full py-4 rounded-xl bg-forest hover:bg-forest-light text-white font-bold text-sm transition-all shadow-card disabled:opacity-40 disabled:cursor-not-allowed"
+              >
+                Отправить заявку
+              </button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       15. LEGAL COMPLIANCE FOOTER (152-ФЗ & VLADISLAND.STUDIO)
+       ========================================================================= -->
+  <footer class="bg-[#0A0F0D] text-white py-12 px-4 sm:px-6 lg:px-8 border-t border-white/10 text-center text-xs">
+    <div class="max-w-5xl mx-auto flex flex-col items-center gap-4">
+      
+      <!-- Медицинский дисклеймер -->
+      <div class="bg-white/5 border border-white/10 rounded-xl p-3 max-w-3xl text-[11px] text-[#9CA3AF] leading-relaxed">
+        <strong>Правовое уведомление:</strong> Услуги нутрициолога носят оздоровительно-информационный и консультационный характер, направлены на оптимизацию рациона питания и здорового образа жизни и не являются медицинской помощью или врачебной услугой. Имеются противопоказания, при острых и хронических заболеваниях проконсультируйтесь с лечащим врачом.
+      </div>
+
+      <!-- Строка 1: Реквизиты ИП -->
+      <div class="text-[#E5E7EB] text-xs sm:text-sm font-medium tracking-wide">
+        Индивидуальный предприниматель Воронова Екатерина Сергеевна <span class="mx-2 text-[#4B5563]">|</span> ИНН 772458921430 <span class="mx-2 text-[#4B5563]">|</span> ОГРНИП 321774600392810 <span class="mx-2 text-[#4B5563]">|</span> г. Москва
+      </div>
+
+      <!-- Строка 2: Прямые контакты -->
+      <div class="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-[#D1D5DB] text-xs">
+        <span>E-mail: <a href="mailto:expert@voronova-nutrition.ru" class="text-white hover:underline underline-offset-4">expert@voronova-nutrition.ru</a></span>
+        <span>Тел: <a href="tel:+79268804520" class="text-white font-bold hover:underline underline-offset-4">+7 (926) 880-45-20</a></span>
+        <span>Telegram: <a href="https://t.me/voronova_nutrition" target="_blank" rel="noopener noreferrer" class="text-white hover:underline underline-offset-4">@voronova_nutrition</a></span>
+        <span>Адрес: г. Москва, ул. Новый Арбат, 21</span>
+      </div>
+
+      <!-- Разделитель -->
+      <div class="w-full max-w-xl h-[1px] bg-white/10 my-1"></div>
+
+      <!-- Строка 3: Ссылки на обязательные юридические документы -->
+      <div class="flex flex-wrap items-center justify-center gap-x-4 sm:gap-x-6 gap-y-2 text-[11px] sm:text-xs tracking-wider uppercase font-semibold text-[#D1D5DB]">
+        <a href="#" onclick="openLegalModal('privacy'); return false;" class="hover:text-white underline underline-offset-4 decoration-white/40 hover:decoration-white transition-all py-1">
+          ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ (152-ФЗ)
+        </a>
+        <span class="hidden sm:inline text-white/30">•</span>
+        <a href="#" onclick="openLegalModal('terms'); return false;" class="hover:text-white underline underline-offset-4 decoration-white/40 hover:decoration-white transition-all py-1">
+          ПОЛЬЗОВАТЕЛЬСКОЕ СОГЛАШЕНИЕ И ОФЕРТА
+        </a>
+        <span class="hidden sm:inline text-white/30">•</span>
+        <a href="#" onclick="openLegalModal('cookie'); return false;" class="hover:text-white underline underline-offset-4 decoration-white/40 hover:decoration-white transition-all py-1">
+          ПОЛИТИКА ИСПОЛЬЗОВАНИЯ COOKIE
+        </a>
+      </div>
+
+      <!-- Строка 4: Копирайт и студия разработки -->
+      <div class="text-[#9CA3AF] text-xs mt-1">
+        © 2026 Екатерина Воронова. Клиническая нутрициология. Все права защищены. Разработка сайтов под ключ: <span class="text-white font-bold tracking-wide">VLADISLAND.STUDIO</span>
+      </div>
+
+      <!-- Строка 5: Закон о локализации данных в РФ -->
+      <div class="text-[11px] text-[#6B7280] tracking-wider uppercase font-medium">
+        ХОСТИНГ И БАЗЫ ДАННЫХ — РОССИЙСКАЯ ФЕДЕРАЦИЯ (Ч. 5 СТ. 18 152-ФЗ)
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       16. COOKIE CONSENT BANNER (Появляется при первом входе)
+       ========================================================================= -->
+  <aside 
+    id="cookie-banner" 
+    class="fixed bottom-4 left-4 right-4 sm:left-6 sm:right-auto sm:max-w-md z-50 bg-[#111827]/95 backdrop-blur-md text-white p-4 sm:p-5 rounded-2xl shadow-2xl border border-white/10 hidden transition-all duration-500 transform translate-y-6"
+    aria-label="Согласие на использование cookie"
+  >
+    <div class="flex items-start gap-3.5">
+      <div class="w-9 h-9 rounded-xl bg-white/10 flex items-center justify-center flex-shrink-0 text-amber-400 text-lg">
+        🍪
+      </div>
+      <div class="text-xs text-[#D1D5DB] leading-relaxed">
+        Мы используем файлы cookie для корректной работы сайта и персонализации рекомендаций. Продолжая пользоваться сайтом, вы соглашаетесь с 
+        <a href="#" onclick="openLegalModal('cookie'); return false;" class="text-white underline underline-offset-2 hover:text-amber-300">Политикой обработки cookie</a> 
+        в соответствии с 152-ФЗ РФ.
+      </div>
+    </div>
+    
+    <div class="mt-3.5 flex items-center justify-end gap-3">
+      <button 
+        onclick="acceptCookieConsent()" 
+        class="w-full sm:w-auto px-5 py-2 rounded-xl bg-white text-[#111827] hover:bg-amber-100 font-bold text-xs transition-colors shadow-sm cursor-pointer"
+      >
+        Принять и продолжить
+      </button>
+    </div>
+  </aside>
+
+  <!-- =========================================================================
+       17. BOOKING MODAL (Модальное окно онлайн-записи)
+       ========================================================================= -->
+  <div id="bookingModal" class="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm hidden items-center justify-center p-4">
+    <div class="bg-white rounded-3xl max-w-lg w-full p-6 sm:p-8 shadow-2xl border border-cream-400 relative max-h-[90vh] overflow-y-auto">
+      
+      <button 
+        type="button" 
+        onclick="closeBookingModal()" 
+        class="absolute top-5 right-5 w-8 h-8 rounded-full bg-cream-300 hover:bg-cream-400 text-slateDark flex items-center justify-center transition-colors"
+        aria-label="Закрыть"
+      >
+        ✕
+      </button>
+
+      <div class="text-left mb-6">
+        <span class="text-[11px] font-bold uppercase tracking-wider text-amberGold-dark bg-amberGold-soft px-2.5 py-1 rounded-full">
+          Запись на прием
+        </span>
+        <h3 class="font-serif text-2xl font-bold text-forest mt-2">Консультация нутрициолога</h3>
+        <p class="text-xs text-slateDark-muted mt-1" id="modalServiceSubtitle">
+          Заполните форму, и мы согласуем удобное время в Telegram или WhatsApp.
+        </p>
+      </div>
+
+      <form onsubmit="handleBookingSubmit(event)" class="space-y-4">
+        <input type="hidden" id="modalTariffHidden" value="Общая запись" />
+
+        <div>
+          <label class="block text-xs font-bold text-slateDark mb-1">Ваше имя *</label>
+          <input 
+            type="text" 
+            id="modalName" 
+            required 
+            placeholder="Например, Елена" 
+            class="w-full px-4 py-3 rounded-xl bg-cream-100 border border-cream-400 focus:outline-none focus:border-forest text-base sm:text-sm"
+          />
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold text-slateDark mb-1">Номер телефона (Telegram / WhatsApp) *</label>
+          <input 
+            type="tel" 
+            id="modalPhone" 
+            required 
+            placeholder="+7 (___) ___-__-__" 
+            class="w-full px-4 py-3 rounded-xl bg-cream-100 border border-cream-400 focus:outline-none focus:border-forest text-base sm:text-sm"
+          />
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold text-slateDark mb-1">Формат консультации</label>
+          <select 
+            id="modalFormat" 
+            class="w-full px-4 py-3 rounded-xl bg-cream-100 border border-cream-400 focus:outline-none focus:border-forest text-base sm:text-sm"
+          >
+            <option value="online">Онлайн (Zoom / Telegram по всему миру)</option>
+            <option value="offline">Очно в Москве (Новый Арбат, 21)</option>
+          </select>
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold text-slateDark mb-1">Кратко опишите ваш запрос или симптомы</label>
+          <textarea 
+            id="modalMessage" 
+            rows="2" 
+            placeholder="Например: хочу сбросить 7 кг, постоянные вздутия после еды..." 
+            class="w-full px-4 py-3 rounded-xl bg-cream-100 border border-cream-400 focus:outline-none focus:border-forest text-base sm:text-sm"
+          ></textarea>
+        </div>
+
+        <!-- 152-ФЗ ЧЕКБОКС СОГЛАСИЯ В МОДАЛКЕ -->
+        <div class="pt-1">
+          <label class="flex items-start gap-3 cursor-pointer text-left select-none group">
+            <input 
+              type="checkbox" 
+              id="modalConsentCheckbox" 
+              class="mt-1 w-4 h-4 rounded border-gray-300 text-forest focus:ring-forest cursor-pointer"
+              onchange="toggleModalSubmitButton(this)"
+            />
+            <span class="text-[11px] text-slateDark-muted leading-relaxed">
+              Даю согласие на обработку персональных данных и принимаю условия 
+              <a href="#" onclick="openLegalModal('privacy'); return false;" class="text-forest font-semibold underline hover:text-black">Политики конфиденциальности</a> 
+              в соответствии с 152-ФЗ РФ.
+            </span>
+          </label>
+        </div>
+
+        <button 
+          type="submit" 
+          id="modalSubmitBtn" 
+          disabled 
+          class="w-full py-3.5 rounded-xl bg-forest hover:bg-forest-light text-white font-bold text-sm transition-all shadow-card disabled:opacity-40 disabled:cursor-not-allowed"
+        >
+          Подтвердить запись
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       18. LEGAL INFORMATION MODALS (Политика 152-ФЗ, Оферта, Cookie)
+       ========================================================================= -->
+  <div id="legalModal" class="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm hidden items-center justify-center p-4">
+    <div class="bg-white rounded-3xl max-w-2xl w-full p-6 sm:p-8 shadow-2xl border border-cream-400 relative max-h-[85vh] flex flex-col">
+      <div class="flex justify-between items-center pb-4 border-b border-cream-300">
+        <h3 class="font-serif text-xl sm:text-2xl font-bold text-forest" id="legalModalTitle">
+          Юридический документ
+        </h3>
+        <button 
+          type="button" 
+          onclick="closeLegalModal()" 
+          class="w-8 h-8 rounded-full bg-cream-300 hover:bg-cream-400 text-slateDark flex items-center justify-center transition-colors"
+          aria-label="Закрыть"
+        >
+          ✕
+        </button>
+      </div>
+
+      <div class="overflow-y-auto py-4 text-xs sm:text-sm text-slateDark-muted leading-relaxed space-y-4" id="legalModalBody">
+        <!-- Content injected dynamically -->
+      </div>
+
+      <div class="pt-4 border-t border-cream-300 flex justify-end">
+        <button 
+          type="button" 
+          onclick="closeLegalModal()" 
+          class="px-5 py-2.5 rounded-xl bg-forest text-white text-xs font-bold hover:bg-forest-light transition-colors"
+        >
+          Понятно, закрыть
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       19. JAVASCRIPT LOGIC
+       ========================================================================= -->
+  <script>
+    // Lucide Icons initialization
+    document.addEventListener('DOMContentLoaded', () => {
+      if (typeof lucide !== 'undefined') {
+        lucide.createIcons();
+      }
+
+      // Check Cookie banner status in localStorage
+      const isAccepted = localStorage.getItem('cookie_consent_accepted');
+      if (!isAccepted) {
+        const banner = document.getElementById('cookie-banner');
+        if (banner) {
+          setTimeout(() => {
+            banner.classList.remove('hidden', 'translate-y-6');
+            banner.classList.add('translate-y-0');
+          }, 1200);
+        }
+      }
+
+      // Phone Mask helper
+      initPhoneMasks();
+
+      // Lazy load Yandex Maps on scroll
+      initYandexMapOnScroll();
+    });
+
+    // Accept Cookie
+    function acceptCookieConsent() {
+      localStorage.setItem('cookie_consent_accepted', 'true');
+      const banner = document.getElementById('cookie-banner');
+      if (banner) {
+        banner.classList.add('translate-y-6', 'opacity-0');
+        setTimeout(() => banner.remove(), 400);
+      }
+    }
+
+    // Mobile Menu Toggle
+    function toggleMobileMenu() {
+      const menu = document.getElementById('mobileMenu');
+      if (menu) {
+        menu.classList.toggle('hidden');
+      }
+    }
+
+    // Toggle 152-FZ Submit Buttons
+    function toggleQuizSubmitButton(checkbox) {
+      const btn = document.getElementById('quizSubmitBtn');
+      if (btn) btn.disabled = !checkbox.checked;
+    }
+    function toggleCtaSubmitButton(checkbox) {
+      const btn = document.getElementById('ctaSubmitBtn');
+      if (btn) btn.disabled = !checkbox.checked;
+    }
+    function toggleModalSubmitButton(checkbox) {
+      const btn = document.getElementById('modalSubmitBtn');
+      if (btn) btn.disabled = !checkbox.checked;
+    }
+
+    // Phone Input Mask (+7 (XXX) XXX-XX-XX)
+    function initPhoneMasks() {
+      const phoneInputs = document.querySelectorAll('input[type="tel"]');
+      phoneInputs.forEach(input => {
+        input.addEventListener('input', (e) => {
+          let value = e.target.value.replace(/\D/g, '');
+          if (value.startsWith('8')) value = '7' + value.slice(1);
+          if (!value.startsWith('7')) value = '7' + value;
+          
+          let formatted = '+7';
+          if (value.length > 1) {
+            formatted += ' (' + value.substring(1, 4);
+          }
+          if (value.length >= 5) {
+            formatted += ') ' + value.substring(4, 7);
+          }
+          if (value.length >= 8) {
+            formatted += '-' + value.substring(7, 9);
+          }
+          if (value.length >= 10) {
+            formatted += '-' + value.substring(9, 11);
+          }
+          e.target.value = formatted;
+        });
+      });
+    }
+
+    // Quiz Navigation
+    function nextQuizStep(stepNumber) {
+      document.querySelectorAll('.quiz-step').forEach(el => el.classList.add('hidden'));
+      const target = document.getElementById(`quizStep${stepNumber}`);
+      if (target) {
+        target.classList.remove('hidden');
+      }
+
+      // Update progress bar
+      const bar = document.getElementById('quizProgressBar');
+      const text = document.getElementById('quizStepIndicator');
+      const percent = document.getElementById('quizProgressPercent');
+      if (stepNumber === 1) {
+        bar.style.width = '33%';
+        text.innerText = 'Шаг 1 из 3';
+        percent.innerText = '33%';
+      } else if (stepNumber === 2) {
+        bar.style.width = '66%';
+        text.innerText = 'Шаг 2 из 3';
+        percent.innerText = '66%';
+      } else if (stepNumber === 3) {
+        bar.style.width = '100%';
+        text.innerText = 'Шаг 3 из 3: Расчет';
+        percent.innerText = '100%';
+      }
+    }
+
+    function handleQuizSubmit(event) {
+      event.preventDefault();
+      const consent = document.getElementById('quizConsentCheckbox');
+      if (!consent || !consent.checked) {
+        alert('Для получения рекомендаций необходимо подтвердить согласие на обработку данных (152-ФЗ).');
+        return;
+      }
+      document.querySelectorAll('.quiz-step').forEach(el => el.classList.add('hidden'));
+      const success = document.getElementById('quizSuccess');
+      if (success) success.classList.remove('hidden');
+    }
+
+    function resetQuiz() {
+      document.getElementById('quizForm').reset();
+      const submitBtn = document.getElementById('quizSubmitBtn');
+      if (submitBtn) submitBtn.disabled = true;
+      nextQuizStep(1);
+    }
+
+    // Health Calculator Logic
+    function calculateNutriMetrics() {
+      const weight = parseInt(document.getElementById('weightInput').value) || 65;
+      const activity = document.getElementById('activityInput').value;
+      const goal = document.getElementById('goalInput').value;
+
+      document.getElementById('weightValue').innerText = `${weight} кг`;
+
+      // Water: 30-35 ml/kg for normal, 35-40 ml/kg for active
+      let waterMin = Math.round(weight * 0.030 * 10) / 10;
+      let waterMax = Math.round(weight * 0.035 * 10) / 10;
+      if (activity === 'high') {
+        waterMin = Math.round(weight * 0.035 * 10) / 10;
+        waterMax = Math.round(weight * 0.040 * 10) / 10;
+      }
+      document.getElementById('waterResult').innerText = `${waterMin} – ${waterMax} л/день`;
+
+      // Protein calculation
+      let proteinFactorMin = 1.2;
+      let proteinFactorMax = 1.5;
+      if (goal === 'loss') {
+        proteinFactorMin = 1.3;
+        proteinFactorMax = 1.6;
+      } else if (goal === 'gain') {
+        proteinFactorMin = 1.6;
+        proteinFactorMax = 2.0;
+      }
+      const pMin = Math.round(weight * proteinFactorMin);
+      const pMax = Math.round(weight * proteinFactorMax);
+      document.getElementById('proteinResult').innerText = `${pMin} – ${pMax} г/день`;
+    }
+
+    // FAQ Accordion
+    function toggleFaq(button) {
+      const content = button.nextElementSibling;
+      const icon = button.querySelector('.icon-box');
+      const isHidden = content.classList.contains('hidden');
+      
+      // Close all
+      document.querySelectorAll('.faq-content').forEach(c => c.classList.add('hidden'));
+      document.querySelectorAll('.icon-box').forEach(i => i.style.transform = 'rotate(0deg)');
+
+      if (isHidden) {
+        content.classList.remove('hidden');
+        if (icon) icon.style.transform = 'rotate(45deg)';
+      }
+    }
+
+    // Booking Modal Open / Close
+    function openBookingModal(serviceName) {
+      const modal = document.getElementById('bookingModal');
+      const subtitle = document.getElementById('modalServiceSubtitle');
+      const hidden = document.getElementById('modalTariffHidden');
+      if (subtitle && serviceName) {
+        subtitle.innerText = `Выбранный формат: ${serviceName}`;
+      }
+      if (hidden && serviceName) {
+        hidden.value = serviceName;
+      }
+      if (modal) {
+        modal.classList.remove('hidden');
+        modal.classList.add('flex');
+      }
+    }
+
+    function closeBookingModal() {
+      const modal = document.getElementById('bookingModal');
+      if (modal) {
+        modal.classList.add('hidden');
+        modal.classList.remove('flex');
+      }
+    }
+
+    function handleBookingSubmit(event) {
+      event.preventDefault();
+      const consent = document.getElementById('modalConsentCheckbox');
+      if (!consent || !consent.checked) {
+        alert('Пожалуйста, подтвердите согласие на обработку персональных данных (152-ФЗ).');
+        return;
+      }
+      alert('Заявка успешно отправлена! Екатерина свяжется с вами в течение 20 минут.');
+      closeBookingModal();
+    }
+
+    function handleCtaSubmit(event) {
+      event.preventDefault();
+      const consent = document.getElementById('ctaConsentCheckbox');
+      if (!consent || !consent.checked) {
+        alert('Пожалуйста, подтвердите согласие на обработку персональных данных (152-ФЗ).');
+        return;
+      }
+      alert('Спасибо за обращение! Ваша заявка передана Екатерине Вороновой.');
+      event.target.reset();
+      const btn = document.getElementById('ctaSubmitBtn');
+      if (btn) btn.disabled = true;
+    }
+
+    // Yandex Maps Lazy Loader
+    let mapLoaded = false;
+    function initYandexMapOnScroll() {
+      const mapContainer = document.getElementById('studio-map');
+      if (!mapContainer) return;
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting && !mapLoaded) {
+            mapLoaded = true;
+            loadYandexMap();
+            observer.disconnect();
+          }
+        });
+      }, { rootMargin: '200px' });
+
+      observer.observe(mapContainer);
+    }
+
+    function loadYandexMap() {
+      const script = document.createElement('script');
+      script.src = 'https://api-maps.yandex.ru/2.1/?lang=ru_RU';
+      script.async = true;
+      script.onload = () => {
+        if (typeof ymaps !== 'undefined') {
+          ymaps.ready(() => {
+            const loader = document.getElementById('map-loader');
+            if (loader) loader.style.display = 'none';
+
+            // Coordinates for Novy Arbat, 21, Moscow
+            const coords = [55.752391, 37.588144];
+            const map = new ymaps.Map('studio-map', {
+              center: coords,
+              zoom: 16,
+              controls: ['zoomControl', 'fullscreenControl']
+            });
+
+            const placemark = new ymaps.Placemark(coords, {
+              balloonContentHeader: '<strong>Екатерина Воронова</strong>',
+              balloonContentBody: 'Клинический нутрициолог • Очный прием<br/>г. Москва, ул. Новый Арбат, 21',
+              hintContent: 'Кабинет нутрициолога Екатерины Вороновой'
+            }, {
+              preset: 'islands#darkGreenMedicalCircleIcon'
+            });
+
+            map.geoObjects.add(placemark);
+            map.behaviors.disable('scrollZoom');
+          });
+        }
+      };
+      document.head.appendChild(script);
+    }
+
+    // Legal Documents Modal Content
+    function openLegalModal(type) {
+      const modal = document.getElementById('legalModal');
+      const title = document.getElementById('legalModalTitle');
+      const body = document.getElementById('legalModalBody');
+
+      if (type === 'privacy') {
+        title.innerText = 'Политика конфиденциальности (152-ФЗ РФ)';
+        body.innerHTML = `
+          <p><strong>1. Общие положения</strong><br/>
+          Настоящая Политика обработки персональных данных составлена в соответствии с требованиями Федерального закона от 27.07.2006 № 152-ФЗ «О персональных данных» и определяет порядок сбора, обработки и защиты информации Индивидуальным предпринимателем Вороновой Екатериной Сергеевной (ИНН 772458921430, ОГРНИП 321774600392810).</p>
+          <p><strong>2. Цели обработки персональных данных</strong><br/>
+          Оператор обрабатывает персональные данные Пользователя исключительно для предоставления консультационных услуг в области нутрициологии, записи на индивидуальные программы, отправки методических материалов и гайдов, а также обратной связи по запросу Пользователя.</p>
+          <p><strong>3. Локализация баз данных</strong><br/>
+          В соответствии с ч. 5 ст. 18 152-ФЗ РФ все персональные данные граждан Российской Федерации собираются, систематизируются, накапливаются и хранятся в базах данных, расположенных на серверах на территории Российской Федерации.</p>
+          <p><strong>4. Права субъекта персональных данных</strong><br/>
+          Субъект вправе в любой момент отозвать свое согласие, направив письменное уведомление на электронную почту: <a href="mailto:expert@voronova-nutrition.ru" class="text-forest underline">expert@voronova-nutrition.ru</a> с пометкой «Отзыв согласия на обработку персональных данных».</p>
+        `;
+      } else if (type === 'terms') {
+        title.innerText = 'Пользовательское соглашение и публичная оферта';
+        body.innerHTML = `
+          <p><strong>1. Предмет соглашения</strong><br/>
+          ИП Воронова Е. С. предоставляет информационно-консультационные услуги по составлению индивидуального плана питания, анализу пищевого дневника и интерпретации нутрициологических маркеров здоровья.</p>
+          <p><strong>2. Правовой статус услуг</strong><br/>
+          Услуги Исполнителя не являются медицинской деятельностью, диагностикой заболеваний или назначением лекарственных препаратов. Рекомендации носят превентивный оздоровительный характер. При наличии острых состояний Клиент обязан обратиться к лечащему врачу.</p>
+          <p><strong>3. Оплата и порядок возврата</strong><br/>
+          Оплата услуг осуществляется безналичным расчетом через российские платежные системы с выдачей электронного кассового чека согласно 54-ФЗ РФ.</p>
+        `;
+      } else if (type === 'cookie') {
+        title.innerText = 'Политика использования файлов Cookie';
+        body.innerHTML = `
+          <p><strong>1. Что такое файлы cookie?</strong><br/>
+          Cookie — это небольшие фрагменты текста, сохраняемые вашим браузером для запоминания ваших настроек, сессий и аналитики посещаемости.</p>
+          <p><strong>2. Как мы используем cookie</strong><br/>
+          Сайт использует технические cookie (для сохранения факта согласия) и аналитические cookie (Яндекс.Метрика) без передачи конфиденциальных данных третьим лицам.</p>
+          <p><strong>3. Управление cookie</strong><br/>
+          Вы можете отключить использование cookie в настройках своего браузера в любой момент.</p>
+        `;
+      }
+
+      if (modal) {
+        modal.classList.remove('hidden');
+        modal.classList.add('flex');
+      }
+    }
+
+    function closeLegalModal() {
+      const modal = document.getElementById('legalModal');
+      if (modal) {
+        modal.classList.add('hidden');
+        modal.classList.remove('flex');
+      }
+    }
+  </script>
+</body>
+</html>
